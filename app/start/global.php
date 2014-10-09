@@ -79,3 +79,19 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+App::missing(function($exception)
+
+{
+	Log::info('user got 404 error message .');
+    return Response::view('errors.missing', array(), 404);
+});
+
+
+
+
+
+
+
+
+

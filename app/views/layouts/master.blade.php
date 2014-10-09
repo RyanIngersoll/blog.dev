@@ -11,15 +11,22 @@
 	<title>@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link href="css/blog-post.css" rel="stylesheet">
+    <link href="/blog-post/css/blog-post.css" rel="stylesheet">
 
 </head>
 
-<body 
+<body> 
+
+@if (Session::has('successMessage'))
+    <div class="alert alert-success">{{{ Session::get('successMessage') }}}</div>
+@endif
+
+@if (Session::has('errorMessage'))
+    <div class="alert alert-danger">{{{ Session::get('errorMessage') }}}</div>
+@endif
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -32,7 +39,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Blog Posts</a>
+                <a class="navbar-brand" href="http://blog.dev/posts">Read Posts</a>
+                <a class="navbar-brand" href="http://blog.dev/posts/create">Create Posts</a>
+
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,7 +86,7 @@
 
                 <hr>
     @yield('content')
-    
+
                 
 
 
@@ -208,7 +217,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Heisenberg 2014</p>
                 </div>
             </div>
             <!-- /.row -->

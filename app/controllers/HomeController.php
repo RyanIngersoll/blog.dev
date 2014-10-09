@@ -20,4 +20,23 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	public function sayHello($name)
+{
+    $data = array('name' => $name);
+    return View::make('hello-codeup')->with($data);
+}
+
+	public function showResume()
+{
+    return View::make('myResumePage');
+    
+}
+
+	public function showPortfolio()
+{
+    return View::make('myPortfolioPage');
+    
+}
+
+
 }
