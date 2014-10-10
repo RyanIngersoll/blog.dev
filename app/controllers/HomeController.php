@@ -31,7 +31,11 @@ class HomeController extends BaseController {
     return View::make('myResumePage');
     
 }
-
+public function showGame()
+{
+    return View::make('game');
+    
+}
 	public function showPortfolio()
 {
     return View::make('myPortfolioPage');

@@ -106,6 +106,8 @@ Route::get('/myResumePage', 'HomeController@showResume');
 
 Route::get('/myPortfolioPage', 'HomeController@showPortfolio');
 
+Route::get('/game', 'HomeController@showGame');
+
 Route::get('orm-test', function ()
 {
 //     $post1 = new Post();
