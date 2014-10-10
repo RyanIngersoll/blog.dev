@@ -57,8 +57,8 @@
 			/*text-align: center;*/
 		}
 		.mole-hole{
-			width: 230px;
-			height: 230px;
+			width: 150px;
+			height: 150px;
 			
 			float: left;
 			margin: 15px;
@@ -93,14 +93,14 @@
 
            <div class="jumbotron">
             
-				<h2>MONEY NEVER <span>$</span>LEEPS</h2>
+				<h3>MONEY NEVER <span>$</span>LEEPS</h3>
 				
-				<h3>Salary: $<span id="score">0</span></h3>
-				<h3>Annual Bonus: $<span id="bonus3">0</span></h3>
-				<h3>Felony Charges: $<span id="felonies">0</span></h3>
-				<h3>Total Wealth: $<span id="total">0</span></h3>
+				<h4>Salary: $<span id="score">0</span></h4>
+				<h4>Annual Bonus: $<span id="bonus3">0</span></h4>
+				<h4>Felony Charges: $<span id="felonies">0</span></h4>
+				<h4>Total Wealth: $<span id="total">0</span></h4>
 
-				<h2><button id="start-button" class="btn-btn primary">START</button></h2>
+				<h4><button id="start-button" class="btn-btn primary">START</button></h4>
 
 				<audio class="audio-player" id="money" src="Money never sleeps.mp3"></audio>
 
