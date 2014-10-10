@@ -41,7 +41,7 @@
                 </button>
                 <a class="navbar-brand" href="/posts">Read Posts</a>
                 <a class="navbar-brand" href="/posts/create">Create Posts</a>
-                <a class="navbar-brand" href="/posts/game">Wall Street Game</a>
+                <a class="navbar-brand" href="http://ingytrader.com/game">Wall Street Game</a>
 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
