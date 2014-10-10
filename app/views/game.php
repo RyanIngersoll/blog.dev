@@ -93,9 +93,12 @@
 
            <div class="jumbotron">
             
-				<h1>MONEY NEVER <span>$</span>LEEPS</h1>
+				<h2>MONEY NEVER <span>$</span>LEEPS</h2>
 				
-				<h2>Salary: $<span id="score">0</span></h2><h2>Quarterly Bonus: $<span id="bonus">0</span></h2><h2>Annual Bonus: $<span id="bonus2">0</span></h2><h2>Total Wealth: $<span id="total">0</span></h2>
+				<h3>Salary: $<span id="score">0</span></h3>
+				<h3>Annual Bonus: $<span id="bonus3">0</span></h3>
+				<h3>Felony Charges: $<span id="felonies">0</span></h3>
+				<h3>Total Wealth: $<span id="total">0</span></h3>
 
 				<h2><button id="start-button" class="btn-btn primary">START</button></h2>
 
@@ -118,7 +121,7 @@
 			</div>
 
 		<div class = "felony">
-			<h1><button>Felony Charges: $<span id="felonies">0</span><button></h1>
+			
 		</div>
 
 		</div>
@@ -179,8 +182,9 @@
 		var timeoutID4;
 		var bonus = 0;
 		var bonus2 = 0;
+		var bonus3 = (bonus + bonus2);
 		var felonies = 0;
-		var total = (score + bonus + bonus2 - felonies);
+		var total = (score + bonus3 - felonies);
 
 
 		// $('#payfine')html(felonies = 0);
@@ -301,8 +305,8 @@
         		getBusted();
 
         		$('#score').html(score = 0);
-        		$('#bonus').html(bonus = 0);
-        		$('#bonus2').html(bonus2 = 0);
+        		// $('#bonus').html(bonus = 0);
+        		$('#bonus3').html(bonus3 = 0);
         		$('#felonies').html(felonies = 0);
         		$('#total').html(total = 0);	
      	});  
@@ -342,7 +346,7 @@
 					$(this).remove();
 	 					
 					$('#score').html(score +=10000);
-					$('#total').html(score + bonus + bonus2 - felonies);
+					$('#total').html(score + bonus3 - felonies);
 						getRand(); 
      					
      			});
@@ -354,8 +358,8 @@
  				$(this).hide("explode",1000);
  				$(this).remove();
 
-     			$('#bonus').html(bonus +=27639);
-     			$('#total').html(score + bonus + bonus2 - felonies);
+     			$('#bonus3').html(bonus3 +=27349);
+     			$('#total').html(score + bonus3 - felonies);
      				getBonus();
      				//getBusted();
 
@@ -369,8 +373,8 @@
  				$(this).hide("explode",1000);
  				$(this).remove();
 
-     			$('#bonus2').html(bonus2 +=37639);
-     			$('#total').html(score + bonus + bonus2 - felonies);
+     			$('#bonus3').html(bonus3 +=39633);
+     			$('#total').html(score + bonus3 - felonies);
      				getBonus2();
      				
      				
@@ -385,7 +389,7 @@
  				$(this).remove();
 
      			$('#felonies').html(felonies += 200000);
-     			$('#total').html(score + bonus + bonus2 - felonies);
+     			$('#total').html(score + bonus3 - felonies);
      			getBustedRed();
  				
      		});
