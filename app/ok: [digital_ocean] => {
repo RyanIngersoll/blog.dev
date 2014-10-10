@@ -1,0 +1,15 @@
+ok: [digital_ocean] => {
+    "msg": "git remote add web ssh://codeup@104.131.94.237:22/var/git/ingytrader.com.git"
+}
+
+TASK: [Notes] *****************************************************************
+ok: [digital_ocean] => {
+    "msg": "git push web +master:refs/heads/master"
+}
+
+ansible-playbook ansible/mysql-user-db.yml -l digital_ocean -e "db_name=blog_db"
+
+
+scp .env.php codeup@104.131.94.237:/srv/www/ingytrader.com/
+
+scp .env.php codeup@[your server IP address]:/srv/www/[your domain name]/

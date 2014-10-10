@@ -39,18 +39,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://blog.dev/posts">Read Posts</a>
-                <a class="navbar-brand" href="http://blog.dev/posts/create">Create Posts</a>
+                <a class="navbar-brand" href="/posts">Read Posts</a>
+                <a class="navbar-brand" href="/posts/create">Create Posts</a>
 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://blog.dev/myResumePage">Resume</a>
+                        <a href="http://ingytrader.com/myResumePage">Resume</a>
                     </li>
                     <li>
-                        <a href="http://blog.dev/myPortfolioPage">Porfolio</a>
+                        <a href="http://ingytrader.com/myPortfolioPage">Porfolio</a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile">LinkedIn</a>
