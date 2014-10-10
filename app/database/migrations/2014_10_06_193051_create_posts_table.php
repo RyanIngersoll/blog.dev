@@ -20,15 +20,24 @@ class CreatePostsTable extends Migration {
             $table->timestamps();
         });
 
-        Schema::create('comment', function($table)
-        {
-            $table->increments('id');
-            $table->text('body', 1000);
-            
-            $table->timestamps();
-        });
+        
     }
 	
+// class CreateCommentsTable extends Migration {
+// 	public function up()
+// 	{
+// 		Schema::create('comments', function($table)
+//         {
+//             $table->increments('id');
+//             $table->text('body', 1000);
+            
+//             $table->timestamps();
+//         });
+// 	}
+
+
+
+
 
 	/**
 	 * Reverse the migrations.
@@ -37,7 +46,7 @@ class CreatePostsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('comment');
+		// Schema::drop('comment');
 		Schema::drop('posts');
 	}
 

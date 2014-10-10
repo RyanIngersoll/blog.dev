@@ -1,6 +1,6 @@
 <?php
 
-class CommentController extends \BaseController {
+class CommentsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -13,7 +13,7 @@ class CommentController extends \BaseController {
 		//return " index () this displays a list of all posts";
 		$comments = Comment::paginate(4);
 		//$posts = Post::all();
-		return View::make('comments.index')->with('comment', $comments);
+		return View::make('comments.index')->with('comments', $comments);
 	}
 
 

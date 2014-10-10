@@ -1,6 +1,7 @@
 <?php
+use Carbon\Carbon;
 
-class Post extends Eloquent
+class Post extends BaseModel
 {
 		const DATE_FORMAT = 'l jS \\of F Y h:i A';
 
@@ -13,5 +14,12 @@ class Post extends Eloquent
 
 
     protected $table = 'posts';
+
+    public function getCreatedAtAttribute($value)
+{
+    $utc = Carbon::createFromFormat($this->getDateFormat(), $value);
+    return $utc->setTimezone('America/Chicago');
+}
+
 }
 

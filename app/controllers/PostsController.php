@@ -2,6 +2,15 @@
 
 class PostsController extends \BaseController {
 
+	public function __construct()
+{
+    // call base controller constructor
+    parent::__construct();
+
+    // run auth filter before all methods on this controller except index and show
+    $this->beforeFilter('auth.basic', array('except' => array('index', 'show')));
+}
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -28,13 +37,13 @@ class PostsController extends \BaseController {
 		return View::make('posts.create');
 	}
 
-	public function addComment($postId)
-	{
-		$comment = new Comment();
-		return $this->saveComment($comment);
-		//return " function - create() show a form for creating the posts";
-		// return View::make('posts.comments');
-	}
+	// public function addComment($postId)
+	// {
+	// 	$comment = new Comment();
+	// 	return $this->saveComment($comment);
+	// 	//return " function - create() show a form for creating the posts";
+	// 	// return View::make('posts.comments');
+	// }
 
 
 	/**
@@ -172,7 +181,19 @@ class PostsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		return "destroy($id) deletes a specific posts ";
+		$post = Post::find($id);
+
+		if(!$post){
+			App::abort(404);
+		}
+
+		$post->delete();
+
+		Log::info('post deleted!!!');
+
+		Session::flash('successMessage', 'Post deleted!!!');
+
+		return Redirect::action('PostsController@index');
 	}
 // GET	/posts	index	Show a list of all posts
 // GET	/posts/create	create	Show a form for creating a post

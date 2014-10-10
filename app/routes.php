@@ -140,9 +140,9 @@ Route::get('orm-test', function ()
 	return $comments;
 });
 
+Route::resource('addComment/{post}', 'PostsController@addComment');
 Route::resource('posts', 'PostsController');
 
-Route::resource('comments', 'CommentsController');
 
 
 

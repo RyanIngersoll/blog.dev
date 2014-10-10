@@ -12,5 +12,5 @@ class Comment extends Eloquent
 			);
 
 
-    protected $table = 'comment';
+    protected $table = 'comments';
 }

@@ -52,7 +52,7 @@
 
                             {{$errors->first('comment', '<span class="help-block">:message</span>')}}
 
-                        
+                        <p>{{{""}}}</p>
                         <button type="submit" class="btn btn-primary">Submit</button>
                         {{ Form::close() }} 
 
@@ -61,7 +61,7 @@
 				  </div>
 				</div>
 					    
-					    <p><span class="glyphicon glyphicon-time"></span>-- last updated {{ $post->updated_at->format(Post::DATE_FORMAT)}}-- <button><a href="{{{action('PostsController@edit', $post->id)}}}">Edit Post</a></button></p>
+					    <p><span class="glyphicon glyphicon-time"></span>-- last updated {{ $post->updated_at->format(Post::DATE_FORMAT)}}-- <button><a href="{{{action('PostsController@edit', $post->id)}}}">Edit/Delete</a></button></p>
 
 				<!-- Blog Comments -->
 
@@ -77,3 +77,17 @@
 					{{ $posts->links() }}
 
 					@stop
+
+@section('bottom-script')
+	// <script type="text/javascript">
+	// $("#delete-form").submit(function(e) {
+	// 	if (!confirm('are u sure you want to delete this post?')){
+	// 		event.preventDefault();
+	// 	}
+	// });
+	// </script>
+
+@stop
+
+
+

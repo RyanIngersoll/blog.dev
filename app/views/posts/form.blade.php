@@ -21,4 +21,11 @@
    <textarea rows = "10" input type="textarea" name="body" id="body"placeholder="body" value="{{{ Input::old('body') }}}" class= "form-control"></textarea> -->
     {{$errors->first('body', '<span class="help-block">:message</span>')}}
 
-  <!-- <h2><input type="submit" value="submit!!"></h2>
+   
+
+
+
+
+
+
+
