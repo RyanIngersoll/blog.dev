@@ -9,10 +9,11 @@ class Post extends BaseModel
 			// 'name'		 => 'required|between:1,10',
 			'title'      => 'required|max:255',
     		'body'       => 'required|max:5000'
+    		//'email' => 'unique:users'
 
 			);
 
-
+//
     protected $table = 'posts';
 
     public function getCreatedAtAttribute($value)
@@ -22,4 +23,13 @@ class Post extends BaseModel
 }
 
 }
+
+// public function update($id){
+// 	$rules = User::$rules;
+// 	$rules['email'] = $rules['email'] . ",$id";
+// 	$validator = Validator::make($data = Input::all(), $rules);
+// }
+
+
+
 
