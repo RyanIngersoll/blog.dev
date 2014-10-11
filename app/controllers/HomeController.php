@@ -42,5 +42,9 @@ public function showGame()
     
 }
 
+public function showingytrader()
+{
+    return View::make('/');
+
 
 }

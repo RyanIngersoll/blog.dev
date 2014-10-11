@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>money-never-sleeps</title>
+	<title>ingytrader</title>
 	<!-- link to jquery commands file saved to make mac -->
 	<script src="jquery-1.11.1.js"></script>
 	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
@@ -15,7 +15,7 @@
 
 		body{
 			text-align: center;
-			cursor:url("cellphone.png"), auto;
+			/*cursor:url("cellphone.png"), auto;*/
 			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/
 			
 		}
@@ -87,7 +87,7 @@
 
 <!-- ******************************************************************************* -->
 
-<body background="bud+fox.jpg">
+<body background="bluecomputercode2.gif">
  
       <div class="container-fluid">
         <div class="row">
