@@ -87,7 +87,7 @@
 
 <body background="bud+fox.jpg">
  
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xs-10 col-md-8">
 
