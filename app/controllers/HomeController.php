@@ -44,7 +44,7 @@ public function showGame()
 
 public function showingytrader()
 {
-    return View::make('/');
+    return View::make('ingytrader');
 
 
 }

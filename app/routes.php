@@ -11,12 +11,12 @@
 |
 */
 
-// Route::get('/', function()
-// {
-// 	return View::make('hello');
-// });
+Route::get('/', function()
+{
+	return View::make('ingytrader');
+});
 
-Route::get('/', 'HomeController@showingytrader');
+//Route::get('/', 'HomeController@showingytrader');
 
 Route::get('/sayhello/{name}/{day}', function($name, $day)
 {
