@@ -17,7 +17,6 @@
 
 <h1>form to create a post</h1>
 
-
  <div class="col-xs-6 col-md-4">
             {{ Form::open(array('action' => 'PostsController@store', 'class' => 'form-horizontal')) }}
 <!-- {{$errors->has('title') ? 'has-error' : '' }} ternary-->

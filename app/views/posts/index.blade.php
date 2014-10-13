@@ -32,8 +32,12 @@
 	                </p>
 
 	                <img class="gekko" src="300px-Walter_White2.jpg" alt="wall street">
+	                
+
 
 					@foreach ($posts as $post)
+						
+
 					    <h3>Post: {{ $post->id }} <span class="glyphicon glyphicon-time"></span> {{ $post->created_at->format(Post::DATE_FORMAT) }} </h4>
 					     
 
@@ -43,6 +47,7 @@
 
 			            <div class="jumbotron">
 					    <h2> {{ $post->title }} </h2>
+
 					    <h4>W.W.--  {{ $post->body }}</h4></jumbotron>
 
 					    {{ Form::open(array('action' => 'PostsController@store', 'class' => 'form-horizontal')) }}

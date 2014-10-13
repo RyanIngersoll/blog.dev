@@ -13,6 +13,37 @@
 	<!-- css classes -->
 	<style type="text/css">
 
+	
+
+
+
+.myButton {
+	background-color:#f00c1f;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:12px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Impact;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:32px 44px;
+	text-decoration:none;
+	text-shadow:4px 7px 0px #ffffff;
+}
+.myButton:hover {
+	background-color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 		body{
 			text-align: center;
 			background-color: white;
@@ -99,8 +130,7 @@
         <div class="row">
           <div class="col-xs-10 col-md-8">
 
-          <h1><button id="start-button" class="btn-btn primary">START</button></h1>
-
+          
 
            <div class="jumbotron">
             
@@ -174,6 +204,8 @@
 		<div class="mole-hole" id="12">
 			
 		</div> -->
+		<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
+
 		
 
 	</div>
@@ -236,35 +268,35 @@
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='I.png'  alt='whack-a-mole'>").appendTo("#" + 1).show(1000).delay(10000).hide("explode",1000);
+	    			$("<img id='theMole' class='mole' src='I.png'  alt='whack-a-mole'>").appendTo("#" + 1).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode", Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getN(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(2000).delay(10000).hide("explode",1000);
+	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode", Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getG(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(3000).delay(10000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode", Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getY(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(2000).delay(10000).hide("explode",1000);
+	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getT(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(2000).delay(10000).hide("explode",3000);
+	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	// function getR(){
@@ -278,53 +310,118 @@
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(3000).delay(10000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getA(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(1000).delay(10000).hide("explode",3000);
+	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 			function getD(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(2000).delay(8000).hide("explode",4000);
+	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
 	    	function getE(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(3000).delay(7000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};									
 
 	    	function getR(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(2000).delay(6000).hide("explode",1000);
+	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};	
+
+	    		function ingyTrader(){
+	    			getI();
+	    			getN();
+	    			getG();
+	    			getY();
+	    			getT();
+	    			getFirstR();
+	    			getA();
+	    			getD();
+	    			getE();
+	    			getR();
+	    		};
+
+				  // (function(){
+						// var i = 10;
+						//     (function k(){
+
+						//         if( --i ) {
+						//         setTimeout( k, 200 );
+						//         }
+
+						//     })()
+						// })()
 
 
 	    			$('#start-button').click(function() {
-        			//$('#start-button').hide();
 
+        				$('#start-button').hide("explode",2000);
 
-        			getI();
-        			getN();
-        			getG();
-        			getY();
-        			getT();
-        			getFirstR();
-        			getA();
-        			getD();
-        			getE();
-        			getR();
-        		}); 
+	        				var counter = 0;
+						    setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
+						    // do your thing
+
+						    counter++;
+						    if(counter == 5) {
+						        clearInterval(ingyTrader);
+						    }
+						
+        			}); 	
+
+        		// 	getI();
+        		// 	//sleep(2500);
+
+        		// 	// setTimeout(getN(), 3000);
+        		// 	getN();
+        		// 	//sleep(2500);
+
+        		// 	// setTimeout(getG(), 3000);
+        		// 	getG();
+        		// 	// sleep(2500);
+
+        		// 	// setTimeout(getY(), 3000);
+        		// 	getY();
+        		// 	// sleep(2500);
+
+        		// 	// setTimeout(getT(), 3000);
+        		// 	getT();
+        		// 	// sleep(2500);
+        		// 	// setTimeout(getFirstR(), 3000);
+
+        		// 	getFirstR();
+        		// 	// sleep(2500);
+
+        		// 	// setTimeout(getA(), 3000);
+        		// 	getA();
+        		// 	// sleep(2500);
+        		// 	// setTimeout(getD(), 3000);
+
+        		// 	getD();
+        		// 	// sleep(2500);
+
+        		// 	// setTimeout(getE(), 3000);
+        		// 	getE();
+        		// 	// sleep(2500);
+
+        		// 	// setTimeout(getR(), 3000);
+        		// 	getR();
+        		// 	// sleep(2500);
+        		 
+
+        		
 
 	    			// timeoutID = setTimeout(function(){
 	    			// 	$("img").hide(3000);

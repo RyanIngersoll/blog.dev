@@ -19,9 +19,11 @@ class PostsController extends \BaseController {
 	public function index()
 
 	{
+		//dd(Auth::user()->id);
 		//return " index () this displays a list of all posts";
-		$posts = Post::paginate(4);
+		$posts = Post::with('user')->paginate(4);
 		//$posts = Post::all();
+		// dd($posts);
 		return View::make('posts.index')->with('posts', $posts);
 	}
 
@@ -142,6 +144,9 @@ class PostsController extends \BaseController {
 
 		$post->title = Input::get('title');
 		$post->body = Input::get('body');
+		$post->first_name = Input::get('first_name');
+		$post->last_name = Input::get('last_name');
+		$post->user_id = Auth::id();
 
 		$post->save();
 

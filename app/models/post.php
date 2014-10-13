@@ -22,6 +22,10 @@ class Post extends BaseModel
     return $utc->setTimezone('America/Chicago');
 }
 
+public function user(){
+    return $this->belongsTo('User');
+}
+
 }
 
 // public function update($id){
