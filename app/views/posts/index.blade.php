@@ -38,7 +38,7 @@
 					@foreach ($posts as $post)
 						
 
-					    <h3>Post: {{ $post->id }} <span class="glyphicon glyphicon-time"></span> {{ $post->created_at->format(Post::DATE_FORMAT) }} </h4>
+					    <h3>Post: {{ $post->id }} <span class="glyphicon glyphicon-time"></span> {{ $post->created_at->format(Post::DATE_FORMAT) }} </h3>
 					     
 
 				<div class="container">
@@ -48,8 +48,9 @@
 			            <div class="jumbotron">
 					    <h2> {{ $post->title }} </h2>
 
-					    <h4>W.W.--  {{ $post->body }}</h4></jumbotron>
-
+					    <h4>W.W.--  {{ $post->body }}</h4>
+					    <h4><img src="{{{ $post->image }}}" alt="wall street">
+					     </h4></jumbotron>
 					    {{ Form::open(array('action' => 'PostsController@store', 'class' => 'form-horizontal')) }}
 
 					    	

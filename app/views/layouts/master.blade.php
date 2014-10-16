@@ -41,20 +41,29 @@
                 </button>
                 <a class="navbar-brand" href="/posts">Read Posts</a>
                 <a class="navbar-brand" href="/posts/create">Create Posts</a>
+                <a class="navbar-brand" href="/posts/manage">Manage Posts</a>
                 <a class="navbar-brand" href="http://ingytrader.com/game">Wall Street Game</a>
+
 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://ingytrader.com/myResumePage">Resume</a>
+                        <a href="/myResumePage">Resume</a>
                     </li>
                     <li>
-                        <a href="http://ingytrader.com/myPortfolioPage">Porfolio</a>
+                        <a href="/myPortfolioPage">Porfolio</a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile">LinkedIn</a>
+                    </li>
+                    <li>
+                        @if (Auth::check())
+                        <a href="/logout">Logout</a>
+                        @else 
+                        <a href="/login">Login</a>
+                        @endif
                     </li>
                 </ul>
             </div>
@@ -151,23 +160,22 @@
                 </div>
 
             </div>
+            
+<!-- {{$errors->has('title') ? 'has-error' : '' }} ternary-->
+               
+        </div>
 
             <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
+            <div class="col-xs-6 col-md-4">
+            {{ Form::open(array('action' => 'PostsController@index', 'class' => 'form-horizontal', 'method'=> 'GET')) }}
+<!-- {{$errors->has('title') ? 'has-error' : '' }} ternary-->
+               <label for="search">search: </label>
+               <input type="text" name="search" id="search"placeholder="search" value="{{{ Input::old('search') }}}" class= "form-control"> 
+               
+                <h2><input type="submit" value="search"></h2>
+                <!-- <textarea rows="3"></textarea> -->
+            {{ Form::close() }} 
+        </div>
 
                 <!-- Blog Categories Well -->
                 <div class="well">
@@ -228,10 +236,11 @@
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <script src="/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    @yield('bottom-script')
 
 </body>
 

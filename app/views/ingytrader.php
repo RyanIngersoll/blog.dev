@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ingytrader</title>
+	<title>ingytrader.com</title>
 	<!-- link to jquery commands file saved to make mac -->
 	<script src="jquery-1.11.1.js"></script>
 	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-	
-
 	<!-- css classes -->
 	<style type="text/css">
 
-	
-
-
-
 .myButton {
 	background-color:#f00c1f;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
 	border:12px solid black;
 	display:inline-block;
 	cursor:pointer;
@@ -42,14 +36,11 @@
 	top:1px;
 }
 
-
-
 		body{
 			text-align: center;
 			background-color: white;
 			/*cursor:url("cellphone.png"), auto;*/
-			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/
-			
+			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
 		}
 
 
@@ -67,10 +58,9 @@
               float: right;
               opacity: 0.8;
     			filter: alpha(opacity=40);
-              
-
-              /*background-image: url(img/bitcoin_conversion.jpeg);*/
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
+
               .container .jumbotron {
               border-radius: 50px;
               }
@@ -83,7 +73,7 @@
 			/*width: 700px;*/
 			/*text-align: center;*/
 			margin-left: 0px;
-			padding: 20px;
+			padding: 0px;
 			margin-bottom: 20px;
 			padding-bottom: 20px;
 			float: left;
@@ -130,18 +120,12 @@
         <div class="row">
           <div class="col-xs-10 col-md-8">
 
-          
-
-           <div class="jumbotron">
+          	<div class="jumbotron">
             
 				<!-- <h3>INGYTRADER.COM</h3> -->
-				
-				
+				<audio class="audio-player" id="kidrock" src="Kid Rock-Bawitdaba (www.myfreemp3.cc).mp3"></audio>
 
-				
-				<audio class="audio-player" id="money" src="Money never sleeps.mp3"></audio>
-
-				<audio class="audio-player" id="bucks" src="Its all about bucks.mp3"></audio>
+				<audio class="audio-player" id="bombsiren" src="BOMB_SIREN-BOMB_SIREN-247265934.mp3"></audio>
 
 				<audio class="audio-player" id="wake-up" src="Wake Up Call.mp3"></audio>
 
@@ -169,7 +153,7 @@
 		
 
 		<div class="mole-hole" id="1">
-			
+			<img class="black" id="black" src="pitch-black-darkness-21.jpg"></img>
 		</div>
 		<div class="mole-hole" id="2">
 			
@@ -180,9 +164,12 @@
 		<div class="mole-hole" id="4">
 			
 		</div>
+
 		<div class="mole-hole" id="5">
 			
+			
 		</div>
+
 		<div class="mole-hole" id="6">
 			
 		</div>
@@ -198,37 +185,12 @@
 		<div class="mole-hole" id="10">
 			
 		</div>
-		<!-- <div class="mole-hole" id="11">
-			
-		</div>
-		<div class="mole-hole" id="12">
-			
-		</div> -->
-		<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
-
 		
-
+		<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
 	</div>
 
 	<script>
-		// var holes = $('.mole-hole');
-		// var i = 0;
-		// var score = 0;
-		// var timeoutID;
-		// var timeoutID2;
-		// var timeoutID3;
-		// var timeoutID3;
-		// var timeoutID4;
-		// var bonus = 0;
-		// var bonus2 = 0;
-		// var bonus3 = (bonus + bonus2);
-		// var felonies = 0;
-		// var total = (score + bonus3 - felonies);
 
-
-		// $('#payfine')html(felonies = 0);
-
-      //   $(document).ready(function(){
 
       //   	function getSound() {
 			   //    $("#money").trigger("play");
@@ -263,8 +225,85 @@
     		// };
 
 
+// $(document).ready(function(){
+		function getshortI(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='I.png'  alt='whack-a-mole'>").appendTo("#" + 1).show(21000).delay(3000).hide("explode",2000);
+	    			};
 
-        	function getI(){
+	    	function getshortN(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	function getshortG(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	function getshortY(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	function getshortT(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	// function getR(){
+        		
+    		// 	// var rand = Math.floor(Math.random() * 12) + 1;
+	    	// 	// if(score < 200000){
+	    	// 		$("<img id='theMole' class='mole' src='lettert.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(2000).delay(10000).hide("explode",3000);
+	    	// 		};	
+
+			function getshortFirstR(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	function getshortA(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+			function getshortD(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+	    	function getshortE(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(21000).delay(3000).hide("explode",2000);
+	    			};									
+
+	    	function getshortR(){
+        		
+    			// var rand = Math.floor(Math.random() * 12) + 1;
+	    		// if(score < 200000){
+	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(21000).delay(3000).hide("explode",2000);
+	    			};
+
+			function getI(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
@@ -298,13 +337,6 @@
 	    		// if(score < 200000){
 	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
-
-	    	// function getR(){
-        		
-    		// 	// var rand = Math.floor(Math.random() * 12) + 1;
-	    	// 	// if(score < 200000){
-	    	// 		$("<img id='theMole' class='mole' src='lettert.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(2000).delay(10000).hide("explode",3000);
-	    	// 		};	
 
 			function getFirstR(){
         		
@@ -352,249 +384,50 @@
 	    			getD();
 	    			getE();
 	    			getR();
+	    			counter++;
+						if(counter == 3) {
+						   clearInterval(ingy);
+						}
 	    		};
 
-				  // (function(){
-						// var i = 10;
-						//     (function k(){
+	    		function shortIngyTrader(){
+	    			getshortI();
+	    			getshortN();
+	    			getshortG();
+	    			getshortY();
+	    			getshortT();
+	    			getshortFirstR();
+	    			getshortA();
+	    			getshortD();
+	    			getshortE();
+	    			getshortR();
+	    		}
 
-						//         if( --i ) {
-						//         setTimeout( k, 200 );
-						//         }
+	    		function slideBlack(){
+	    			$('#black').slideUp(20000);
+	    			setTimeout(ingyTraderLaunch, 23000);
+	    		}
 
-						//     })()
-						// })()
+	    		function ingyTraderLaunch(){
 
+	    			ingy = setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
+	    		}
 
+	    	// setTimeout(ingy, 3000);
+
+			var ingy;
+			var counter = 0;
+			
 	    			$('#start-button').click(function() {
-
+	    				
         				$('#start-button').hide("explode",2000);
 
-	        				var counter = 0;
-						    setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
-						    // do your thing
+        					slideBlack();
+        					shortIngyTrader();
 
-						    counter++;
-						    if(counter == 5) {
-						        clearInterval(ingyTrader);
-						    }
-						
-        			}); 	
-
-        		// 	getI();
-        		// 	//sleep(2500);
-
-        		// 	// setTimeout(getN(), 3000);
-        		// 	getN();
-        		// 	//sleep(2500);
-
-        		// 	// setTimeout(getG(), 3000);
-        		// 	getG();
-        		// 	// sleep(2500);
-
-        		// 	// setTimeout(getY(), 3000);
-        		// 	getY();
-        		// 	// sleep(2500);
-
-        		// 	// setTimeout(getT(), 3000);
-        		// 	getT();
-        		// 	// sleep(2500);
-        		// 	// setTimeout(getFirstR(), 3000);
-
-        		// 	getFirstR();
-        		// 	// sleep(2500);
-
-        		// 	// setTimeout(getA(), 3000);
-        		// 	getA();
-        		// 	// sleep(2500);
-        		// 	// setTimeout(getD(), 3000);
-
-        		// 	getD();
-        		// 	// sleep(2500);
-
-        		// 	// setTimeout(getE(), 3000);
-        		// 	getE();
-        		// 	// sleep(2500);
-
-        		// 	// setTimeout(getR(), 3000);
-        		// 	getR();
-        		// 	// sleep(2500);
-        		 
+						}); 	
 
         		
-
-	    			// timeoutID = setTimeout(function(){
-	    			// 	$("img").hide(3000);
-	    			// },2000);
-	    // 		} else if(score == 200000) {
-	    // 			getSound();
-	 			// 	$("<img id='theMole' class='mole' src='gg.jpeg'  alt='whack-a-mole'>").appendTo("#" + rand).show(500);
-	 			// 	timeoutID = setTimeout(function(){
-	    // 				$("img").hide(2000);
-					// },2000);
-					
-	 			// } else if(score > 200000) {
-	 			// 	$("<img id='theMole' class='mole' src='gg.jpeg'  alt='whack-a-mole'>").appendTo("#" + rand).show(500);
-	 			// 	timeoutID = setTimeout(function(){
-	    // 				$("img").hide(1500);
-					// },1500);
-					// 	getBonus();
-					// 	getBonus2();
-
-	 			// } 
-
-	        
-
-	     //    function getBonus(){
-        		
-    		// 	 var bonusRound = Math.floor(Math.random() * 20) + 1;
-
-	    	// 		 if(bonusRound == 1 || bonusRound == 4 || bonusRound == 8 || bonusRound == 10){
-						// $("<img id='theBonus' class='Bonus' src='signing-bonus.jpg'  alt='Bonus-Round'>").appendTo("#" + bonusRound).show(500);
-			 		// 		timeoutID2 = setTimeout(function(){
-			   //  				$("#theBonus").hide(3000);
-
-		    // 				},4000);
-		 			// 	}
-	     //    		};
-
-	     //    function getBonus2(){
-        		
-    		// 	 var bonusRound2 = Math.floor(Math.random() * 20) + 1;
-
-	    	// 		 if(bonusRound2 == 2 ||  bonusRound2 == 12){
-						// $("<img id='theBonus2' class='Bonus2' src='blue star.jpg'  alt='Bonus-Round2'>").appendTo("#" + bonusRound2).show(500);
-
-			 		// 		timeoutID3 = setTimeout(function(){
-			   //  				$("#theBonus2").hide(3000);
-
-		    // 				},4000);
-		 			// 	}
-	     //    		};
-
-	     //    function getBusted(){
-        		
-    		// 	 var arrested = Math.floor(Math.random() * 12) + 1;
-
-	    	// 		 if(arrested == 1 ||  arrested == 5 || arrested == 8){
-						// $("<img id='foxxy' class='budfoxx' src='busted.jpg'  alt='busted'>").appendTo("#" + arrested).show(500);
-
-			 		// 		timeoutID4 = setTimeout(function(){
-			   //  				$("#foxxy").hide(3000);
-
-		    // 				},4000);
-		 			// 	}
-	     //    		};
-
-	     //    function getBustedRed(){
-        		
-    			 
-						// $("<img id='bustedred' class='red' src='bustedred.jpg'  alt='bustedred'>").appendTo("#3").show(2000).delay(1000).hide(1000);
-		 			// 	};
-
-
-
-        		// getSound6();
-        		//$('.mole-hole').css('cursor','url(img/dollar_sign1.jpg), auto');
-        		// getBusted();
-
-        		// $('#score').html(score = 0);
-        		// // $('#bonus').html(bonus = 0);
-        		// $('#bonus3').html(bonus3 = 0);
-        		// $('#felonies').html(felonies = 0);
-        		// $('#total').html(total = 0);	
-     	 
-
-     		// $('.mole-hole').on("click", "#theMole", function() {
-     		// 				i++;
-     		// 			if(i % 5 == 0 && score > 70000){
-     		// 				getSound2();
-     		// 				getBusted();
-     		// 			}
-     		// 			 if(i %7 == 0 && score > 120000){
-     		// 				getSound4();
-     		// 				//getBusted();
-
-     		// 			}
-     		// 			 if(i % 9 == 0 && score > 180000){
-     		// 				getSound5();
-     		// 				//getBusted();
-     		// 			}
-     		// 			 if(i % 11 == 0 && score > 250000){
-     		// 				getSound();
-     		// 				//getBusted();
-     						
-     		// 			}
-     		// 			 if(i % 13 == 0 && score > 70000){
-     		// 				getSound8();
-     		// 				//getBusted();
-     		// 			}
-
-     					
-
-     						
-					// clearTimeout(timeoutID);
-
-					//  $(this).hide("explode",1000);
-
-					// $(this).remove();
-	 					
-					// $('#score').html(score +=10000);
-					// $('#total').html(score + bonus3 - felonies);
-					// 	getRand(); 
-     					
-     			// });
-
-    //  		$('.mole-hole').on("click", "#theBonus", function(){
-    //  			getSound3();
-				// clearTimeout(timeoutID2);
-
- 			// 	$(this).hide("explode",1000);
- 			// 	$(this).remove();
-
-    //  			$('#bonus3').html(bonus3 +=27349);
-    //  			$('#total').html(score + bonus3 - felonies);
-    //  				getBonus();
-    //  				//getBusted();
-
-    //  		});
-     			
- 			// 	$('.mole-hole').on("click", "#theBonus2", function(){
-
-    //  			getSound8();
-				// clearTimeout(timeoutID3);
-
- 			// 	$(this).hide("explode",1000);
- 			// 	$(this).remove();
-
-    //  			$('#bonus3').html(bonus3 +=39633);
-    //  			$('#total').html(score + bonus3 - felonies);
-    //  				getBonus2();
-     				
-     				
-    //  		});
-
- 			// 	$('.mole-hole').on("click", "#foxxy", function(){
- 					
-    //  			getSound7();
-				// clearTimeout(timeoutID4);
-
- 			// 	$(this).hide("explode",1000);
- 			// 	$(this).remove();
-
-    //  			$('#felonies').html(felonies += 200000);
-    //  			$('#total').html(score + bonus3 - felonies);
-    //  			getBustedRed();
- 				
-    //  		});
-
-     	// });
-
-    
-
-    
-        	
-
 
 	</script>
 </body>

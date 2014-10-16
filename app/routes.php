@@ -11,6 +11,34 @@
 |
 */
 
+Route::get('/images', function() {
+	return View::make('images');
+});
+
+Route::post('form-submit', function(){
+	// $file = [
+	// 'getRealPath()' => Input::file('file')->getRealPath(),
+	// 'getClientOriginalName' => Input::file('file')->getClientOriginalName(),
+	// 'getClientOriginalExtension'=> Input::file('file')->getClientOriginalExtension(),
+	// 'getRealPath()'=>Input::file('file')->getRealPath()
+	// // var_dump($file);
+	// ];
+
+
+$file = Input::file('file');
+
+$original_filename = $file->getClientOriginalName(). "str_random(6)";
+//prevents overwriting in storage
+
+$destination_directory = storage_path() . '/img/';
+
+//dd($destination_directory);
+
+$file->move($destination_directory, $original_filename);
+
+//var_dump($file);
+});
+
 Route::get('/', function()
 {
 	return View::make('ingytrader');
@@ -108,6 +136,16 @@ Route::get('/myPortfolioPage', 'HomeController@showPortfolio');
 
 Route::get('/game', 'HomeController@showGame');
 
+
+
+Route::get('/login', 'HomeController@showLogin');
+
+Route::post('/login', 'HomeController@doLogin');
+
+Route::get('/logout', 'HomeController@doLogout');
+
+
+
 Route::get('orm-test', function ()
 {
 //     $post1 = new Post();
@@ -143,8 +181,15 @@ Route::get('orm-test', function ()
 });
 
 Route::post('addComment/{post}', 'PostsController@addComment');
-Route::resource('posts', 'PostsController');
 
+
+Route::get('posts/manage', function() {
+	$posts = Post::with('user')->paginate(4);
+	return View::make('manage')->with('posts', $posts);
+});
+
+// Route::get('/manage', 'HomeController@showWelcome');
+Route::resource('posts', 'PostsController');
 
 
 

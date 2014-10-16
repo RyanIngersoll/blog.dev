@@ -18,7 +18,7 @@
 <h1>form to create a post</h1>
 
  <div class="col-xs-6 col-md-4">
-            {{ Form::open(array('action' => 'PostsController@store', 'class' => 'form-horizontal')) }}
+            {{ Form::open(array('action' => 'PostsController@store', 'files' => true, 'class' => 'form-horizontal')) }}
 <!-- {{$errors->has('title') ? 'has-error' : '' }} ternary-->
                <label for="title">title: </label>
                <input type="text" name="title" id="title"placeholder="title" value="{{{ Input::old('title') }}}" class= "form-control"> <br>
@@ -27,6 +27,9 @@
                <label for="body">body: </label>
                <textarea rows = "10" input type="textarea" name="body" id="body"placeholder="body" value="{{{ Input::old('body') }}}" class= "form-control"></textarea>
                 {{$errors->first('body', '<span class="help-block">:message</span>')}}
+
+                {{ Form::label('image','File',array('class'=>'')) }}
+                {{ Form::file('image','',array('class'=> 'form-control',)) }}
 
                 <h2><input type="submit" value="submit!!"></h2>
                 <!-- <textarea rows="3"></textarea> -->

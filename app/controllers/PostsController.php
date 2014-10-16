@@ -8,7 +8,7 @@ class PostsController extends \BaseController {
     parent::__construct();
 
     // run auth filter before all methods on this controller except index and show
-    $this->beforeFilter('auth.basic', array('except' => array('index', 'show')));
+    $this->beforeFilter('auth', array('except' => array('index', 'show')));
 }
 
 	/**
@@ -21,10 +21,30 @@ class PostsController extends \BaseController {
 	{
 		//dd(Auth::user()->id);
 		//return " index () this displays a list of all posts";
-		$posts = Post::with('user')->paginate(4);
+
+		$search = Input::get ('search');
+		// word search
+
+		//$post->title = Input::get('title');
+
+		$query = Post::with ('user');
+
+		$query ->where('title', 'like', "%$search%");
+		$query ->orWhere('body', 'like', "%$search%");
+
+		$query ->orWhereHas('user', function($q){
+			$search = Input::get ('search');
+			$q->where('first_name', 'like', "%$search%");
+			$q->orWhere('last_name', 'like', "%$search%");
+		});
+
+		
+		$posts = $query->orderBy('created_at', 'desc')->paginate(4);
+
 		//$posts = Post::all();
 		// dd($posts);
 		return View::make('posts.index')->with('posts', $posts);
+		
 	}
 
 
@@ -56,7 +76,24 @@ class PostsController extends \BaseController {
 	public function store()
 	{
 		$post = new Post();
-		return $this->savePost($post);
+
+		
+
+	if(Input::hasFile('image')){
+		$file = Input::file('image');
+		$destination_path = public_path() . '/img/';
+		$filename = $file->getClientOriginalName();
+		$uploadSuccess = $file->move($destination_path, $filename);
+		$post->image = '/img/' . $filename;
+}
+		//$original_filename = $file->getClientOriginalName(). str_random(6);
+//prevents overwriting in storage
+return $this->savePost($post);
+}		
+
+//dd($destination_directory);
+
+// $file->move($destination_directory, $original_filename);
 
 		//return Redirect::back()->withInput();
 		// Post::$rules;
@@ -79,7 +116,6 @@ class PostsController extends \BaseController {
 
 		
 
-	}
 
 
 	/**
@@ -144,8 +180,6 @@ class PostsController extends \BaseController {
 
 		$post->title = Input::get('title');
 		$post->body = Input::get('body');
-		$post->first_name = Input::get('first_name');
-		$post->last_name = Input::get('last_name');
 		$post->user_id = Auth::id();
 
 		$post->save();
