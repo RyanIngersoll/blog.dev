@@ -127,7 +127,7 @@
 
 				<audio class="audio-player" id="bombsiren" src="BOMB_SIREN-BOMB_SIREN-247265934.mp3"></audio>
 
-				<audio class="audio-player" id="wake-up" src="Wake Up Call.mp3"></audio>
+				<audio class="audio-player" id="robocop" src="robocop.mp3"></audio>
 
 				<audio class="audio-player" id="dog" src="Get a dog.mp3"></audio>
 
@@ -186,23 +186,23 @@
 			
 		</div>
 		
-		<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
+		
 	</div>
 
 	<script>
 
 
-      //   	function getSound() {
-			   //    $("#money").trigger("play");
-    		// };
+        	function getRoboCop() {
+			      $("#robocop").trigger("play");
+    		};
 
-    		// function getSound2() {
-			   //    $("#bucks").trigger("play");
-    		// };
+    		function getBombSiren() {
+			      $("#bombsiren").trigger("play");
+    		};
 
-    		// function getSound3() {
-			   //    $("#wake-up").trigger("play");
-    		// };
+    		function getKidRock() {
+			      $("#kidrock").trigger("play");
+    		};
         	
     		// function getSound4() {
 			   //    $("#dog").trigger("play");
@@ -403,6 +403,64 @@
 	    			getshortR();
 	    		}
 
+	    		
+
+	    	function getRoboCop() {
+			      $("#robocop").trigger("play");
+    		};
+
+    		function getBombSiren() {
+			      $("#bombsiren").trigger("play");
+    		};
+
+    		function getKidRock() {
+			      $("#kidrock").trigger("play");
+    		};
+
+    		function hideGeorge() {
+    			$("#george").hide();
+    		};
+
+    		function getGeorge() {
+    			$("#george").slideDown(2000).delay(40000).slideUp(2000);
+			      $("#george").trigger("play");
+    		};
+
+
+	    		function roboCop(){
+	    			getRoboCop();
+	    			setTimeout(bombSiren, 23000);
+	    		}
+
+	    		function bombSiren(){
+	    			getBombSiren();
+	    			setTimeout(kidRock, 23000);
+	    		}
+
+	    		function kidRock(){
+	    			getKidRock();
+	    			setTimeout(george, 23000);
+	    		}
+
+	    		// <iframe id = "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
+
+	    		function george(){
+	    			getGeorge();
+	    			setTimeout(hireMe, 23000);
+	    		}
+
+	    		function hireMe(){
+	    			$('#hire').slideUp(20000);
+	    			setTimeout(showLinks, 23000);
+	    		}
+
+	    		function showLinks(){
+	    			$('#portfolio').slideDown(2000);
+	    			$('#github').slideDown(4000);
+	    			$('#linkedin').slideDown(6000);
+	    			//setTimeout(ingyTraderLaunch, 23000);
+	    		}
+
 	    		function slideBlack(){
 	    			$('#black').slideUp(20000);
 	    			setTimeout(ingyTraderLaunch, 23000);
@@ -411,12 +469,18 @@
 	    		function ingyTraderLaunch(){
 
 	    			ingy = setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
-	    		}
+	    			}
 
 	    	// setTimeout(ingy, 3000);
 
 			var ingy;
 			var counter = 0;
+
+			$( document ).ready(function() {
+
+    			hideGeorge();
+			
+				
 			
 	    			$('#start-button').click(function() {
 	    				
@@ -427,8 +491,21 @@
 
 						}); 	
 
-        		
+    });    		
 
 	</script>
+
+	<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
+
+	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
+
+	<h1><a href="http://espn.go.com/" target="_blank" id="portfolio" >Portfolio</a></h1>
+
+	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
+
+	<h1><a href="https://github.com/RyanIngersoll" target="_blank" id="github" >GitHub Account</a></h1>
+
+	</div>
+
 </body>
 </html>
