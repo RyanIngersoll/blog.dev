@@ -39,10 +39,10 @@ $file->move($destination_directory, $original_filename);
 //var_dump($file);
 });
 
-Route::get('/', function()
-{
-	return View::make('ingytrader');
-});
+// Route::get('/', function()
+// {
+// 	return View::make('ingytrader');
+// });
 
 //Route::get('/', 'HomeController@showingytrader');
 
