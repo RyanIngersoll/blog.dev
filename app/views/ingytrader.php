@@ -385,7 +385,7 @@
 	    			getE();
 	    			getR();
 	    			counter++;
-						if(counter == 3) {
+						if(counter == 100) {
 						   clearInterval(ingy);
 						}
 	    		};
@@ -429,17 +429,18 @@
 
 	    		function roboCop(){
 	    			getRoboCop();
-	    			setTimeout(bombSiren, 23000);
+	    			setTimeout(bombSiren, 4000);
 	    		}
 
 	    		function bombSiren(){
 	    			getBombSiren();
-	    			setTimeout(kidRock, 23000);
+	    			getBombSiren();
+	    			setTimeout(kidRock, 500);
 	    		}
 
 	    		function kidRock(){
 	    			getKidRock();
-	    			setTimeout(george, 23000);
+	    			setTimeout(george, 450000);
 	    		}
 
 	    		// <iframe id = "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
@@ -453,6 +454,12 @@
 	    			$('#hire').slideUp(20000);
 	    			setTimeout(showLinks, 23000);
 	    		}
+
+	    		function hideLinks(){
+    			$('#portfolio').hide();
+	    		$('#github').hide();
+	    		$('#linkedin').hide();
+    			};
 
 	    		function showLinks(){
 	    			$('#portfolio').slideDown(2000);
@@ -473,18 +480,20 @@
 
 	    	// setTimeout(ingy, 3000);
 
-			var ingy;
-			var counter = 0;
+				var ingy;
+				var counter = 0;
+			
 
 			$( document ).ready(function() {
 
     			hideGeorge();
-			
+				hideLinks();
 				
-			
 	    			$('#start-button').click(function() {
 	    				
         				$('#start-button').hide("explode",2000);
+
+        					roboCop();
 
         					slideBlack();
         					shortIngyTrader();
@@ -495,7 +504,7 @@
 
 	</script>
 
-	<h1><button id="start-button" class="myButton">DON'T DO IT!</button></h1>
+	<h1><button id="start-button" class="myButton">push</button></h1>
 
 	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
 
