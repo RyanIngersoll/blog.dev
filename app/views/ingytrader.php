@@ -237,28 +237,28 @@
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(23000).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortG(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(25000).delay(7000).hide("explode",2000);
 	    			};
 
 	    	function getshortY(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(27000).delay(9000).hide("explode",2000);
 	    			};
 
 	    	function getshortT(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(29000).delay(11000).hide("explode",2000);
 	    			};
 
 	    	// function getR(){
@@ -272,36 +272,38 @@
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(31000).delay(13000).hide("explode",2000);
 	    			};
 
 	    	function getshortA(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(33000).delay(15000).hide("explode",2000);
 	    			};
 
 			function getshortD(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(35000).delay(17000).hide("explode",2000);
 	    			};
 
 	    	function getshortE(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(37000).delay(19000).hide("explode",2000);
 	    			};									
 
 	    	function getshortR(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(39000).delay(21000).hide("explode",2000);
 	    			};
+
+
 
 			function getI(){
         		
@@ -385,7 +387,7 @@
 	    			getE();
 	    			getR();
 	    			counter++;
-						if(counter == 100) {
+						if(counter == 50) {
 						   clearInterval(ingy);
 						}
 	    		};
@@ -422,8 +424,12 @@
     		};
 
     		function getGeorge() {
-    			$("#george").slideDown(2000).delay(40000).slideUp(2000);
-			      $("#george").trigger("play");
+    			$("#george").show(2000).delay(40000).hide(2000);
+			      
+    		};
+
+    		function hideGeorge() {
+    			$("#george").trigger("play");
     		};
 
 
@@ -434,12 +440,13 @@
 
 	    		function bombSiren(){
 	    			getBombSiren();
-	    			getBombSiren();
+	    			
 	    			setTimeout(kidRock, 500);
 	    		}
 
 	    		function kidRock(){
 	    			getKidRock();
+	    			getBombSiren();
 	    			setTimeout(george, 450000);
 	    		}
 
@@ -451,7 +458,7 @@
 	    		}
 
 	    		function hireMe(){
-	    			$('#hire').slideUp(20000);
+	    			$('#hire-me.jpg').show(3000).delay(4000).hide(3000);
 	    			setTimeout(showLinks, 23000);
 	    		}
 
@@ -459,7 +466,7 @@
     			$('#portfolio').hide();
 	    		$('#github').hide();
 	    		$('#linkedin').hide();
-    			};
+    		};
 
 	    		function showLinks(){
 	    			$('#portfolio').slideDown(2000);
