@@ -123,7 +123,7 @@
 			
 			float: left;
 			margin-left: 0px;
-			border: 2px solid white;
+			border: 2px solid transparent;
 
 			/*text-align: center;*/
 		}
