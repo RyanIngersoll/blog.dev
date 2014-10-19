@@ -3,7 +3,7 @@
 <head>
 	<title>ingytrader.com</title>
 	<!-- link to jquery commands file saved to make mac -->
-	<script src="jquery-1.11.1.js"></script>
+	<script src="/js/jquery-1.11.1.js"></script>
 	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -28,9 +28,9 @@
 	text-decoration:none;
 	text-shadow:4px 7px 0px #ffffff;
 }
-.myButton:hover {
+/*.myButton:hover {
 	background-color: black;
-}
+}*/
 .myButton:active {
 	position:relative;
 	top:1px;
@@ -41,6 +41,38 @@
 			background-color: white;
 			/*cursor:url("cellphone.png"), auto;*/
 			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
+		}
+
+		#brand {
+			color: white;
+		}
+
+		#blank {
+			color: transparent;
+		}
+
+		#codingProblem{
+			color: white;
+		}
+
+		#codingProblem2{
+			color: black;
+		}
+
+		#portfolio{
+			color: black;
+		}
+
+		#github{
+			color: black;
+		}
+
+		#linkedin{
+			color: black;
+		}
+
+		#home{
+			color: black;
 		}
 
 
@@ -69,17 +101,17 @@
               	border-radius: 50px;
               }
 
-		.game-board{
+		/*.game-board{
 			/*width: 700px;*/
 			/*text-align: center;*/
-			margin-left: 0px;
+			/*margin-left: 0px;
 			padding: 0px;
 			margin-bottom: 20px;
 			padding-bottom: 20px;
 			float: left;
 
-			/*border: 1px solid white;*/
-		}
+			/*border: 1px solid white;
+		}*/
 
 		.mole{
 			display: none;
@@ -91,7 +123,7 @@
 			
 			float: left;
 			margin-left: 0px;
-			/*border: 2px solid white;*/
+			border: 2px solid white;
 
 			/*text-align: center;*/
 		}
@@ -129,7 +161,7 @@
 
 				<audio class="audio-player" id="robocop" src="robocop.mp3"></audio>
 
-				<audio class="audio-player" id="dog" src="Get a dog.mp3"></audio>
+				<audio class="audio-player" id="jay-Z" src="07jayzon_to_the_next_one_feat._swizz_b.mp3"></audio>
 
 				<audio class="audio-player" id="nuts" src="Im up to my ass.mp3"></audio>
 
@@ -149,11 +181,11 @@
 	</div>
 </div> 
 
-	<div class="game-board">
+	<div class="container-fluid">
 		
 
 		<div class="mole-hole" id="1">
-			<img class="black" id="black" src="pitch-black-darkness-21.jpg"></img>
+			<img class="black" id="black" src="pitchblack.jpg"></img>
 		</div>
 		<div class="mole-hole" id="2">
 			
@@ -189,118 +221,120 @@
 		
 	</div>
 
+	
+
+	
+
+	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
+
+	
+
+	<h1><a href="http://espn.go.com/" target="_blank" id="portfolio" >Portfolio</a></h1>
+
+	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
+
+	<h1><a href="https://github.com/RyanIngersoll" target="_blank" id="github" >GitHub Account</a></h1>
+
+	<h1><a href="ingytrader.com" target="_blank" id="home" >ingytrader.com</a></h1>
+
+
+<div class="container">
+<p id="blank" >"                 "</p>
+<p id="blank" >"                 "</p>
+
+<h1 id="codingProblem" >NEED A PROGRAMER?</h1>
+<h1 id="codingProblem2" >HIRE ME</h1>
+<img id="hireMe" src="hireme.jpg"  alt= "hireme" >
+
+
+<h1><button id="start-button" class="myButton">do it</button></h1>
+
+<p id="blank" >"                 "</p>
+<p id="blank" >"                 "</p>
+
+<h1 id="brand" >ingytrader.com</h1>
+<h1 id="codingProblem2" >ingytrader.com</h1>
+</div>
 	<script>
 
-
-        	function getRoboCop() {
-			      $("#robocop").trigger("play");
-    		};
-
-    		function getBombSiren() {
-			      $("#bombsiren").trigger("play");
-    		};
-
-    		function getKidRock() {
-			      $("#kidrock").trigger("play");
-    		};
+				var ingy;
+				var counter = 0;
+				hideGeorge();
+				hideLinks();
+				//hideHireMe();
         	
-    		// function getSound4() {
-			   //    $("#dog").trigger("play");
-    		// };
+        	
+    		
 
-    		// function getSound5() {
-			   //    $("#nuts").trigger("play");
-    		// };
-
-    		// function getSound6() {
-			   //    $("#greed").trigger("play");
-    		// };
-
-    		// function getSound8() {
-			   //    $("#losses").trigger("play");
-    		// };
-
-    		// function getSound7() {
-			   //    $("#mainthing").trigger("play");
-    		// };
-
-
-// $(document).ready(function(){
 		function getshortI(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='I.png'  alt='whack-a-mole'>").appendTo("#" + 1).show(21000).delay(3000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='I.png'  alt='whack-a-mole'>").appendTo("#" + 1).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortN(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(23000).delay(5000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='n.png'  alt='whack-a-mole'>").appendTo("#" + 2).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortG(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(25000).delay(7000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='g.png'  alt='whack-a-mole'>").appendTo("#" + 3).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortY(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(27000).delay(9000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='superY.jpeg'  alt='whack-a-mole'>").appendTo("#" + 4).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortT(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(29000).delay(11000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='ttt.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
-	    	// function getR(){
-        		
-    		// 	// var rand = Math.floor(Math.random() * 12) + 1;
-	    	// 	// if(score < 200000){
-	    	// 		$("<img id='theMole' class='mole' src='lettert.png'  alt='whack-a-mole'>").appendTo("#" + 5).show(2000).delay(10000).hide("explode",3000);
-	    	// 		};	
-
+	  
 			function getshortFirstR(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(31000).delay(13000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='letterr.png'  alt='whack-a-mole'>").appendTo("#" + 6).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortA(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(33000).delay(15000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='a.png'  alt='whack-a-mole'>").appendTo("#" + 7).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 			function getshortD(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(35000).delay(17000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='greenround.png'  alt='whack-a-mole'>").appendTo("#" + 8).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 	    	function getshortE(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(37000).delay(19000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(39700).delay(5000).hide("explode",2000);
 	    			};									
 
 	    	function getshortR(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
-	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(39000).delay(21000).hide("explode",2000);
+	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(39700).delay(5000).hide("explode",2000);
 	    			};
 
 
@@ -387,7 +421,7 @@
 	    			getE();
 	    			getR();
 	    			counter++;
-						if(counter == 50) {
+						if(counter == 50 ||counter == 51 || counter == 52 || counter == 53 || counter == 54) {
 						   clearInterval(ingy);
 						}
 	    		};
@@ -407,6 +441,8 @@
 
 	    		
 
+
+
 	    	function getRoboCop() {
 			      $("#robocop").trigger("play");
     		};
@@ -419,26 +455,35 @@
 			      $("#kidrock").trigger("play");
     		};
 
+    		function getJZ() {
+			      $("#jay-Z").trigger("play");
+    		};
+
+    		function hideHireMe() {
+    			$("#hireMe").hide();
+    		};
+
+
     		function hideGeorge() {
     			$("#george").hide();
     		};
 
-    		function getGeorge() {
-    			$("#george").show(2000).delay(40000).hide(2000);
+    		function slideGeorge() {
+    			$("#george").slideDown(3000).delay(40000).slideUp(3000);
 			      
     		};
 
-    		function hideGeorge() {
+    		function playGeorge() {
     			$("#george").trigger("play");
     		};
 
-
-	    		function roboCop(){
-	    			getRoboCop();
-	    			setTimeout(bombSiren, 4000);
+    		function hireMe(){
+	    			$('#hire-me.jpg').show(3000);
 	    		}
 
-	    		function bombSiren(){
+    			
+
+	    		function bombSiren1(){
 	    			getBombSiren();
 	    			
 	    			setTimeout(kidRock, 500);
@@ -446,39 +491,112 @@
 
 	    		function kidRock(){
 	    			getKidRock();
+	    			
+	    			setTimeout(bombSiren2, 500);
+	    		}
+
+	    		function bombSiren2(){
+	    			
 	    			getBombSiren();
-	    			setTimeout(george, 450000);
+	    			setTimeout(intro1, 20000);
 	    		}
 
-	    		// <iframe id = "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
-
-	    		function george(){
-	    			getGeorge();
-	    			setTimeout(hireMe, 23000);
+	    		function intro1(){
+	    			shortIngyTrader();
+	    			setTimeout(intro2, 1300);
 	    		}
 
-	    		function hireMe(){
-	    			$('#hire-me.jpg').show(3000).delay(4000).hide(3000);
-	    			setTimeout(showLinks, 23000);
+	    		function intro2(){
+	    			shortIngyTrader();
+	    			setTimeout(intro3, 1300);
 	    		}
 
+	    		function intro3(){
+	    			shortIngyTrader();
+	    			setTimeout(intro4, 1300);
+	    		}
+
+	    		function intro4(){
+	    			shortIngyTrader();
+	    			setTimeout(intro5, 1300);
+	    		}
+
+	    		function intro5(){
+	    			shortIngyTrader();
+	    			setTimeout(intro6, 1300);
+	    		}
+
+	    		function intro6(){
+	    			shortIngyTrader();
+	    			setTimeout(intro7, 1300);
+	    		}
+
+	    		function intro7(){
+	    			shortIngyTrader();
+	    			setTimeout(intro8, 1300);
+	    		}
+
+	    		function intro8(){
+	    			shortIngyTrader();
+	    			setTimeout(intro9, 36000);
+	    		}
+
+	    		function intro9(){
+	    			ingyTraderLaunch();
+	    			setTimeout(startGeorge, 200000);
+	    		}
+
+	    		
+
+	    		function startGeorge(){
+	    			slideGeorge();
+	    			//slides george  down delays 40 sec then goes back up
+	    			setTimeout(playGetGeorge, 500);
+	    		}
+
+	    		function playGetGeorge(){
+	    			playGeorge();
+	    			//plays george 40seconds
+	    			setTimeout(showLinks, 40000);
+	    		}
+
+	    		// function playJZ(){
+	    		// 	getJZ();
+	    		// 	//plays george 40seconds
+	    		// 	setTimeout(showHireMe, 500);
+	    		// }
+
+	    		// function showHireMe(){
+	    		// 	hireMe();
+	    		// 	// shows hire me image
+	    		// 	setTimeout(showLinks, 500);
+	    		// }
+
+	    		function showLinks(){
+	    			showLinks();
+	    			// shows links
+	    		}
+
+
+	    		
 	    		function hideLinks(){
     			$('#portfolio').hide();
 	    		$('#github').hide();
 	    		$('#linkedin').hide();
-    		};
+	    		$('#home').hide();
+    		}
 
 	    		function showLinks(){
 	    			$('#portfolio').slideDown(2000);
 	    			$('#github').slideDown(4000);
 	    			$('#linkedin').slideDown(6000);
+	    			$('#home').slideDown(8000);
 	    			//setTimeout(ingyTraderLaunch, 23000);
 	    		}
 
 	    		function slideBlack(){
 	    			$('#black').slideUp(20000);
-	    			setTimeout(ingyTraderLaunch, 23000);
-	    		}
+	    			}
 
 	    		function ingyTraderLaunch(){
 
@@ -487,41 +605,28 @@
 
 	    	// setTimeout(ingy, 3000);
 
-				var ingy;
-				var counter = 0;
-			
 
 			$( document ).ready(function() {
 
-    			hideGeorge();
-				hideLinks();
+    			
 				
 	    			$('#start-button').click(function() {
 	    				
         				$('#start-button').hide("explode",2000);
-
-        					roboCop();
-
+        				$('#hireMe').hide("explode",2000);
+        					
+        					getRoboCop();
         					slideBlack();
-        					shortIngyTrader();
+        					bombSiren1();
 
-						}); 	
+  						}); 	
 
     });    		
 
 	</script>
 
-	<h1><button id="start-button" class="myButton">push</button></h1>
-
-	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
-
-	<h1><a href="http://espn.go.com/" target="_blank" id="portfolio" >Portfolio</a></h1>
-
-	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
-
-	<h1><a href="https://github.com/RyanIngersoll" target="_blank" id="github" >GitHub Account</a></h1>
-
-	</div>
+	
+	<!-- </div> -->
 
 </body>
 </html>
