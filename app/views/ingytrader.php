@@ -243,7 +243,7 @@
 
 	<h1><a href="https://github.com/RyanIngersoll" target="_blank" id="github" >GitHub Account</a></h1>
 
-	<h1><a href="ingytrader.com" target="_blank" id="home" >ingytrader.com</a></h1>
+	<h1><a href="/" target="_blank" id="home" >ingytrader.com</a></h1>
 
 
 <div class="container">
