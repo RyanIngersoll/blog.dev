@@ -59,6 +59,14 @@
 			color: black;
 		}
 
+		#codingProblem3{
+			color: white;
+		}
+
+		#codingProblem4{
+			color: black;
+		}
+
 		#portfolio{
 			color: black;
 		}
@@ -252,8 +260,8 @@
 <p id="blank" >"                 "</p>
 <p id="blank" >"                 "</p>
 
-<h1 id="brand" >ingytrader.com</h1>
-<h1 id="codingProblem2" >ingytrader.com</h1>
+<h1 id="codingProblem3" >ingytrader.com</h1>
+<h1 id="codingProblem4" >ingytrader.com</h1>
 </div>
 	<script>
 
@@ -421,7 +429,7 @@
 	    			getE();
 	    			getR();
 	    			counter++;
-						if(counter == 50 ||counter == 51 || counter == 52 || counter == 53 || counter == 54) {
+						if(counter == 55 ||counter == 57 || counter == 59 || counter == 61 || counter == 63) {
 						   clearInterval(ingy);
 						}
 	    		};
@@ -469,7 +477,7 @@
     		};
 
     		function slideGeorge() {
-    			$("#george").slideDown(3000).delay(40000).slideUp(3000);
+    			$("#george").slideDown(3000).trigger("play").delay(40000).slideUp(3000);
 			      
     		};
 
@@ -541,9 +549,16 @@
 	    			setTimeout(intro9, 36000);
 	    		}
 
+	    		
+
 	    		function intro9(){
 	    			ingyTraderLaunch();
-	    			setTimeout(startGeorge, 200000);
+	    			setTimeout(intro10, 200000);
+	    		}
+
+	    		function intro10(){
+	    			hideCodingProblem();
+	    			setTimeout(startGeorge, 1000);
 	    		}
 
 	    		
@@ -578,7 +593,25 @@
 	    		}
 
 
-	    		
+	    		function hideCodingProblem(){
+	    			$('#codingProblem').hide("explode",2000);
+	    			$('#codingProblem2').hide("explode",2000);
+	    			$('#codingProblem3').hide("explode",2000);
+	    			$('#codingProblem4').hide("explode",2000);
+	    		}
+
+	    		// function hideCodingProblem2(){
+	    		// 	$('#codingProblem2').hide("explode",2000);
+	    		// }
+
+	    		// function hideCodingProblem3(){
+	    		// 	$('#codingProblem2').hide("explode",2000);
+	    		// }
+
+	    		// function hideCodingProblem4(){
+	    		// 	$('#codingProblem2').hide("explode",2000);
+	    		// }
+
 	    		function hideLinks(){
     			$('#portfolio').hide();
 	    		$('#github').hide();
@@ -614,11 +647,14 @@
 	    				
         				$('#start-button').hide("explode",2000);
         				$('#hireMe').hide("explode",2000);
+        				
+
         					
         					getRoboCop();
         					slideBlack();
         					bombSiren1();
 
+        				
   						}); 	
 
     });    		
