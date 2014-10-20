@@ -67,6 +67,14 @@
 			color: black;
 		}
 
+		#codingProblem5{
+			color: white;
+		}
+
+		#codingProblem6{
+			color: white;
+		}
+
 		#portfolio{
 			color: black;
 		}
@@ -137,7 +145,7 @@
 		}
 
 		span{
-			color: green;
+			color: red;
 		}
 		h1{
 			color: black;
@@ -243,36 +251,49 @@
 
 	<h1><a href="https://github.com/RyanIngersoll" target="_blank" id="github" >GitHub Account</a></h1>
 
-	<h1><a href="/" target="_blank" id="home" >ingytrader.com</a></h1>
+	<!-- <h1><a href="/" target="_blank" id="home" >ingytrader.com</a></h1> -->
+
+	<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="home" >ingytrader@gmail.com</a></h1>
 
 
 <div class="container">
-<p id="blank" >"                 "</p>
-<p id="blank" >"                 "</p>
 
 <h1 id="codingProblem" >NEED A PROGRAMER?</h1>
 <h1 id="codingProblem2" >HIRE ME</h1>
-<img id="hireMe" src="hireme.jpg"  alt= "hireme" >
-
-
+<img id="hireMe" src="hirered.jpg"  alt= "hireme" >
+<img id="blueCode" src="bluecomputercode2.gif"  alt= "hireme" >
+<p id="blank" >"                 "</p>
+<p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE box</p>
+<p id ="codingProblem6" >Prepare for Sound</p>
 <h1><button id="start-button" class="myButton">do it</button></h1>
 
-<p id="blank" >"                 "</p>
-<p id="blank" >"                 "</p>
 
-<h1 id="codingProblem3" >ingytrader.com</h1>
-<h1 id="codingProblem4" >ingytrader.com</h1>
+<!-- <p id="blank" >"                 "</p> -->
+
+<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
+<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem4" >ingytrader@gmail.com</a></h1>
+
+<!-- <h1 id="codingProblem4" >ingytrader@gmail.com</h1> -->
+
+<!-- <h3>
+
+<a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top">
+ingytrader@gmail.com</a>
+</h3> -->
+
+<!-- <p>
+<b>Note:</b> Spaces between words should be replaced by %20 to ensure that the browser will display the text properly.
+</p> -->
 </div>
 	<script>
 
 				var ingy;
 				var counter = 0;
+				var t = 0;
 				hideGeorge();
 				hideLinks();
-				//hideHireMe();
-        	
-        	
-    		
+				hideBlueCode();
+
 
 		function getshortI(){
         		
@@ -408,14 +429,28 @@
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
 	    			$("<img id='theMole' class='mole' src='lettere.jpeg'  alt='whack-a-mole'>").appendTo("#" + 9).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
-	    			};									
+	    			};
 
 	    	function getR(){
         		
     			// var rand = Math.floor(Math.random() * 12) + 1;
 	    		// if(score < 200000){
 	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
-	    			};	
+	    			};
+
+			// var $rImg = $("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>");
+			// var rTimeout;
+
+	    	// function getR(){
+        		
+    		// 	// var rand = Math.floor(Math.random() * 12) + 1;
+	    	// 	// if(score < 200000){
+
+	    	// 		$rImg.appendTo("#" + 10);
+	    	// 		$rImg.show(Math.floor(Math.random() * 5000) + 1000);
+	    	// 		r , Math.floor(Math.random() * 5000) + 1000)
+	    			
+    		// 	};
 
 	    		function ingyTrader(){
 	    			getI();
@@ -429,10 +464,30 @@
 	    			getE();
 	    			getR();
 	    			counter++;
-						if(counter == 55 ||counter == 57 || counter == 59 || counter == 61 || counter == 63) {
+						if(counter == 170) {
+
 						   clearInterval(ingy);
+						   // clearTimeout(rTimeout);
+						   // $rImg.hide('explode', 2000);
 						}
 	    		};
+
+	    		function ingyTraderLaunch(){
+
+	    			ingy = setInterval(ingyTrader, 1000);
+	    			}
+
+	    		// function ingyTraderLaunch(){
+
+	    		// 	ingy = setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
+	    		// 	}
+
+	    // 		 var t = setTimeout(timeLimit(){
+	    // 			ingyTrader();
+						
+					// },260000);	
+	    // 		 clearTimeout(t);
+	    // 		
 
 	    		function shortIngyTrader(){
 	    			getshortI();
@@ -471,6 +526,9 @@
     			$("#hireMe").hide();
     		};
 
+    		function hideBlueCode() {
+    			$("#blueCode").hide();
+    		};
 
     		function hideGeorge() {
     			$("#george").hide();
@@ -481,13 +539,17 @@
 			      
     		};
 
-    		function playGeorge() {
-    			$("#george").trigger("play");
-    		};
+    		// function playGeorge() {
+    		// 	$("#george").trigger("play");
+    		// };
 
     		function hireMe(){
 	    			$('#hire-me.jpg').show(3000);
 	    		}
+
+	    	function showBlueCode(){
+	    			$("#blueCode").show(2000).delay(25000).hide(2000);
+	    		}	
 
     			
 
@@ -557,60 +619,46 @@
 	    		}
 
 	    		function intro10(){
-	    			hideCodingProblem();
-	    			setTimeout(startGeorge, 1000);
+	    			hideCodingProblem2();
+	    			setTimeout(intro11, 1000);
 	    		}
 
 	    		
 
-	    		function startGeorge(){
+	    		function intro11(){
 	    			slideGeorge();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(playGetGeorge, 500);
+	    			setTimeout(intro12, 500);
 	    		}
 
-	    		function playGetGeorge(){
-	    			playGeorge();
-	    			//plays george 40seconds
-	    			setTimeout(showLinks, 40000);
-	    		}
-
-	    		// function playJZ(){
-	    		// 	getJZ();
+	    		// function intro12(){
+	    		// 	playGeorge();
 	    		// 	//plays george 40seconds
-	    		// 	setTimeout(showHireMe, 500);
+	    		// 	setTimeout(intro13, 40000);
 	    		// }
 
-	    		// function showHireMe(){
-	    		// 	hireMe();
-	    		// 	// shows hire me image
-	    		// 	setTimeout(showLinks, 500);
-	    		// }
-
-	    		function showLinks(){
+	    		function intro12(){
 	    			showLinks();
 	    			// shows links
 	    		}
 
-
-	    		function hideCodingProblem(){
+	    		function hideCodingProblem1(){
 	    			$('#codingProblem').hide("explode",2000);
-	    			$('#codingProblem2').hide("explode",2000);
+	    			// $('#codingProblem2').hide("explode",2000);
 	    			$('#codingProblem3').hide("explode",2000);
+	    			// $('#codingProblem4').hide("explode",2000);
+	    			$('#codingProblem5').hide("explode",2000);
+	    			$('#codingProblem6').hide("explode",2000);
+	    		}
+
+
+	    		function hideCodingProblem2(){
+	    			// $('#codingProblem').hide("explode",2000);
+	    			$('#codingProblem2').hide("explode",2000);
+	    			// $('#codingProblem3').hide("explode",2000);
 	    			$('#codingProblem4').hide("explode",2000);
 	    		}
 
-	    		// function hideCodingProblem2(){
-	    		// 	$('#codingProblem2').hide("explode",2000);
-	    		// }
-
-	    		// function hideCodingProblem3(){
-	    		// 	$('#codingProblem2').hide("explode",2000);
-	    		// }
-
-	    		// function hideCodingProblem4(){
-	    		// 	$('#codingProblem2').hide("explode",2000);
-	    		// }
 
 	    		function hideLinks(){
     			$('#portfolio').hide();
@@ -628,13 +676,17 @@
 	    		}
 
 	    		function slideBlack(){
-	    			$('#black').slideUp(20000);
+	    			$('#black').slideUp(25000);
 	    			}
 
-	    		function ingyTraderLaunch(){
+	    // 		var t = setTimeout(timeLimit(){
+	    // 			ingyTrader();
+						
+					// },260000);	
+	    // 		 clearTimeout(t);
+	    // 		
 
-	    			ingy = setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
-	    			}
+	    		
 
 	    	// setTimeout(ingy, 3000);
 
@@ -649,10 +701,11 @@
         				$('#hireMe').hide("explode",2000);
         				
 
-        					
+        					hideCodingProblem1();
         					getRoboCop();
         					slideBlack();
         					bombSiren1();
+        					showBlueCode();
 
         				
   						}); 	
