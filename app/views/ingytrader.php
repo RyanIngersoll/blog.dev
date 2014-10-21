@@ -75,6 +75,22 @@
 			color: white;
 		}
 
+		#onlineResume1{
+			color: white;
+		}
+
+		#onlineResume2{
+			color: white;
+		}
+
+		#onlineResume3{
+			color: white;
+		}
+
+		#onlineResume4{
+			color: white;
+		}
+
 		#portfolio{
 			color: black;
 		}
@@ -260,11 +276,20 @@
 
 <h1 id="codingProblem" >NEED A PROGRAMER?</h1>
 <h1 id="codingProblem2" >HIRE ME</h1>
+
+<h1 id="onlineResume1" >You have entered the online resume of</h1>
+<h1 id="onlineResume2" >RYAN INGERSOLL</h1>
+
+<h1 id="onlineResume3" >Full Stack Web Developer and Financial Engineer</h1>
+<h1 id="onlineResume4" >A.K.A........</h1>
+
 <img id="hireMe" src="hirered.jpg"  alt= "hireme" >
 <img id="blueCode" src="bluecomputercode2.gif"  alt= "hireme" >
+
 <p id="blank" >"                 "</p>
+
 <p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE box</p>
-<p id ="codingProblem6" >Prepare for Sound</p>
+<p id ="codingProblem6" >Prepare yourself for visual and sound effects.</p>
 <h1><button id="start-button" class="myButton">do it</button></h1>
 
 
@@ -293,6 +318,7 @@ ingytrader@gmail.com</a>
 				hideGeorge();
 				hideLinks();
 				hideBlueCode();
+				hideOnlineResume();
 
 
 		function getshortI(){
@@ -530,6 +556,17 @@ ingytrader@gmail.com</a>
     			$("#blueCode").hide();
     		};
 
+    		function hideOnlineResume(){
+    			$("#onlineResume1").hide();
+    			$("#onlineResume2").hide();
+    			$("#onlineResume3").hide();
+    			$("#onlineResume4").hide();
+    		};
+
+
+
+    		
+
     		function hideGeorge() {
     			$("#george").hide();
     		};
@@ -549,7 +586,23 @@ ingytrader@gmail.com</a>
 
 	    	function showBlueCode(){
 	    			$("#blueCode").show(2000).delay(25000).hide(2000);
-	    		}	
+	    		}
+
+	    	function showResume1(){
+	    			$("#onlineResume1").show(2000).delay(6000).hide(2000);
+	    		}
+
+	    	function showResume2(){
+	    			$("#onlineResume2").show(2000).delay(6000).hide(2000);
+	    		}
+
+	    	function showResume3(){
+	    			$("#onlineResume3").show(2000).delay(6000).hide(2000);
+	    		}
+
+	    	function showResume4(){
+	    			$("#onlineResume4").show(2000).delay(6000).hide(2000);
+	    		}				
 
     			
 
@@ -676,20 +729,36 @@ ingytrader@gmail.com</a>
 	    		}
 
 	    		function slideBlack(){
-	    			$('#black').slideUp(25000);
+	    			$('#black').slideUp(35000);
 	    			}
 
-	    // 		var t = setTimeout(timeLimit(){
-	    // 			ingyTrader();
-						
-					// },260000);	
-	    // 		 clearTimeout(t);
-	    // 		
-
+				function enter1(){
+	    			showResume1();
 	    		
+	    			setTimeout(enter2, 100);
+	    		}
 
-	    	// setTimeout(ingy, 3000);
+	    		function enter2(){
+	    			showResume2();
+	    			
+	    			setTimeout(enter3, 8000);
+	    		}
 
+	    		function enter3(){
+	    			showResume3();
+	    			
+	    			setTimeout(enter4, 10000);
+	    		}
+
+	    		function enter4(){
+	    			showResume4();
+	    			
+	    			
+	    		}
+	    			
+	    			
+	    			
+	    		
 
 			$( document ).ready(function() {
 
@@ -699,13 +768,16 @@ ingytrader@gmail.com</a>
 	    				
         				$('#start-button').hide("explode",2000);
         				$('#hireMe').hide("explode",2000);
-        				
-
-        					hideCodingProblem1();
+        				$('#codingProblem').hide(2000);
+        				$('#codingProblem5').hide(2000);
+        				$('#codingProblem6').hide(2000);
+        				$('#codingProblem3').hide(2000);
+        				$('#codingProblem4').hide(2000);
         					getRoboCop();
         					slideBlack();
         					bombSiren1();
-        					showBlueCode();
+        					enter1();
+        					//showBlueCode();
 
         				
   						}); 	
