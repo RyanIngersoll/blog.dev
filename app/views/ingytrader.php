@@ -275,6 +275,12 @@
 <div class="container">
 
 <h1 id="codingProblem" >NEED A PROGRAMER?</h1>
+<p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE box</p>
+<p id ="codingProblem6" >Prepare yourself for visual and sound effects.</p>
+<h1><button id="start-button" class="myButton">do it</button></h1>
+<img id="hireMe" src="hirered.jpg"  alt= "hireme" >
+<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
+
 <h1 id="codingProblem2" >INGYTRADER</h1>
 
 <h1 id="onlineResume1" >You have entered the online resume of</h1>
@@ -283,19 +289,19 @@
 <h1 id="onlineResume3" >Full Stack Web Developer and Financial Engineer</h1>
 <h1 id="onlineResume4" >A.K.A........</h1>
 
-<img id="hireMe" src="hirered.jpg"  alt= "hireme" >
-<img id="blueCode" src="bluecomputercode2.gif"  alt= "hireme" >
 
-<p id="blank" >"                 "</p>
 
-<p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE box</p>
-<p id ="codingProblem6" >Prepare yourself for visual and sound effects.</p>
-<h1><button id="start-button" class="myButton">do it</button></h1>
+
+
+
+
+<img id="blueCode" src="ryanspic.jpeg"  alt= "ryanspic" >
+<img id="finEng1" src="financialeng2.jpg"  alt= "ryanspic" >
 
 
 <!-- <p id="blank" >"                 "</p> -->
 
-<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
+
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem4" >ingytrader@gmail.com</a></h1>
 
 <!-- <h1 id="codingProblem4" >ingytrader@gmail.com</h1> -->
@@ -319,6 +325,7 @@ ingytrader@gmail.com</a>
 				hideLinks();
 				hideBlueCode();
 				hideOnlineResume();
+				hideFinEng1();
 
 
 		function getshortI(){
@@ -503,18 +510,6 @@ ingytrader@gmail.com</a>
 	    			ingy = setInterval(ingyTrader, 1000);
 	    			}
 
-	    		// function ingyTraderLaunch(){
-
-	    		// 	ingy = setInterval(ingyTrader, Math.floor(Math.random() * 5000) + 1000);
-	    		// 	}
-
-	    // 		 var t = setTimeout(timeLimit(){
-	    // 			ingyTrader();
-						
-					// },260000);	
-	    // 		 clearTimeout(t);
-	    // 		
-
 	    		function shortIngyTrader(){
 	    			getshortI();
 	    			getshortN();
@@ -527,9 +522,6 @@ ingytrader@gmail.com</a>
 	    			getshortE();
 	    			getshortR();
 	    		}
-
-	    		
-
 
 
 	    	function getRoboCop() {
@@ -552,9 +544,24 @@ ingytrader@gmail.com</a>
     			$("#hireMe").hide();
     		};
 
+    		function hideFinEng1(){
+    			$("#finEng1").hide();
+    		}
+
+    		function showFinEng1() {
+    			$("#finEng1").show(2000).delay(6000).hide(2000);
+    		};
+
+
     		function hideBlueCode() {
     			$("#blueCode").hide();
     		};
+
+    		function showBlueCode() {
+    			$("#blueCode").show(2000).delay(6000).hide(2000);
+    		};
+
+
 
     		function hideOnlineResume(){
     			$("#onlineResume1").hide();
@@ -584,9 +591,9 @@ ingytrader@gmail.com</a>
 	    			$('#hire-me.jpg').show(3000);
 	    		}
 
-	    	function showBlueCode(){
-	    			$("#blueCode").show(2000).delay(25000).hide(2000);
-	    		}
+	    	// function showBlueCode(){
+	    	// 		$("#blueCode").show(2000).delay(25000).hide(2000);
+	    	// 	}
 
 	    	function showResume1(){
 	    			$("#onlineResume1").show(2000).delay(6000).hide(2000);
@@ -594,10 +601,12 @@ ingytrader@gmail.com</a>
 
 	    	function showResume2(){
 	    			$("#onlineResume2").show(2000).delay(6000).hide(2000);
+	    			
 	    		}
 
 	    	function showResume3(){
 	    			$("#onlineResume3").show(2000).delay(6000).hide(2000);
+	    			showFinEng1();
 	    		}
 
 	    	function showResume4(){
@@ -739,18 +748,27 @@ ingytrader@gmail.com</a>
 	    		}
 
 	    		function enter2(){
-	    			showResume2();
-	    			
-	    			setTimeout(enter3, 8000);
+	    			showBlueCode();
+	    		
+	    			setTimeout(enter3, 100);
 	    		}
 
+
+	    		
+
 	    		function enter3(){
-	    			showResume3();
+	    			showResume2();
 	    			
-	    			setTimeout(enter4, 10000);
+	    			setTimeout(enter4, 8000);
 	    		}
 
 	    		function enter4(){
+	    			showResume3();
+	    			
+	    			setTimeout(enter5, 10000);
+	    		}
+
+	    		function enter5(){
 	    			showResume4();
 	    			
 	    			
