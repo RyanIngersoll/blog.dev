@@ -275,7 +275,7 @@
 <div class="container">
 
 <h1 id="codingProblem" >NEED A PROGRAMER?</h1>
-<h1 id="codingProblem2" >HIRE ME</h1>
+<h1 id="codingProblem2" >INGYTRADER</h1>
 
 <h1 id="onlineResume1" >You have entered the online resume of</h1>
 <h1 id="onlineResume2" >RYAN INGERSOLL</h1>
@@ -773,6 +773,7 @@ ingytrader@gmail.com</a>
         				$('#codingProblem6').hide(2000);
         				$('#codingProblem3').hide(2000);
         				$('#codingProblem4').hide(2000);
+        				$('#codingProblem2').hide(2000);
         					getRoboCop();
         					slideBlack();
         					bombSiren1();
