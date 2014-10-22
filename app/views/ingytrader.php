@@ -4,12 +4,18 @@
 	<title>ingytrader.com</title>
 	<!-- link to jquery commands file saved to make mac -->
 	<script src="/js/jquery-1.11.1.js"></script>
-	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	
+	<script src="/js/jquery-ui.js"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 	<!-- css classes -->
 	<style type="text/css">
+
+	body {
+}
+
+
 
 .myButton {
 	background-color:#f00c1f;
@@ -41,6 +47,13 @@
 			background-color: white;
 			/*cursor:url("cellphone.png"), auto;*/
 			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
+		}
+
+		#slide {
+			position: relative;
+		    /*left: 0px;
+		    top: 0px;*/
+    		z-index: 1;
 		}
 
 		#brand {
@@ -90,6 +103,11 @@
 		#onlineResume4{
 			color: white;
 		}
+
+		#onlineResume5{
+			color: white;
+		}
+		
 
 		#portfolio{
 			color: black;
@@ -253,12 +271,14 @@
 		
 	</div>
 
-	
+	<!-- <div id="videoContainer">
+  <iframe width="450" height="283" src="https://www.youtube.com/embed/VIDEO_ID_HERE?wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>
+</div> -->
 
 	
-
+<div id = "georgeDiv">
 	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
-
+</div>
 	
 
 	<h1><a href="http://espn.go.com/" target="_blank" id="portfolio" >Portfolio</a></h1>
@@ -275,20 +295,21 @@
 <div class="container">
 
 <h1 id="codingProblem" >NEED A PROGRAMER?</h1>
-<p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE box</p>
-<p id ="codingProblem6" >Prepare yourself for visual and sound effects.</p>
+<p id ="codingProblem5" ><em><span>WARNING:</span></em> Clicking this button will take you outside of THE BOX</p>
+<p id ="codingProblem6" >Prepare for visual and sound effects.</p>
+
 <h1><button id="start-button" class="myButton">do it</button></h1>
 <img id="hireMe" src="hirered.jpg"  alt= "hireme" >
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
 
 <h1 id="codingProblem2" >INGYTRADER</h1>
 
-<h1 id="onlineResume1" >You have entered the online resume of</h1>
+<h1 id="onlineResume1" >You have entered the virtual resume of</h1>
 <h1 id="onlineResume2" >RYAN INGERSOLL</h1>
 
 <h1 id="onlineResume3" >Full Stack Web Developer and Financial Engineer</h1>
-<h1 id="onlineResume4" >A.K.A........</h1>
-
+<h1 id="onlineResume4" >The unique combination of experienced derivatives trader and designer of object oriented code</h1>
+<h1 id="onlineResume5" >A.K.A........</h1>
 
 
 
@@ -297,7 +318,7 @@
 
 <img id="blueCode" src="ryanspic.jpeg"  alt= "ryanspic" >
 <img id="finEng1" src="financialeng2.jpg"  alt= "ryanspic" >
-
+<img id="slide" src="financialeng1.jpg"  alt= "ryanspic" >
 
 <!-- <p id="blank" >"                 "</p> -->
 
@@ -326,6 +347,8 @@ ingytrader@gmail.com</a>
 				hideBlueCode();
 				hideOnlineResume();
 				hideFinEng1();
+				$("#slide").hide();
+				$("#onlineResume5").hide();
 
 
 		function getshortI(){
@@ -471,19 +494,7 @@ ingytrader@gmail.com</a>
 	    			$("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>").appendTo("#" + 10).show(Math.floor(Math.random() * 5000) + 1000).delay(Math.floor(Math.random() * 5000) + 1000).hide("explode",Math.floor(Math.random() * 5000) + 1000);
 	    			};
 
-			// var $rImg = $("<img id='theMole' class='mole' src='r.png'  alt='whack-a-mole'>");
-			// var rTimeout;
-
-	    	// function getR(){
-        		
-    		// 	// var rand = Math.floor(Math.random() * 12) + 1;
-	    	// 	// if(score < 200000){
-
-	    	// 		$rImg.appendTo("#" + 10);
-	    	// 		$rImg.show(Math.floor(Math.random() * 5000) + 1000);
-	    	// 		r , Math.floor(Math.random() * 5000) + 1000)
-	    			
-    		// 	};
+			
 
 	    		function ingyTrader(){
 	    			getI();
@@ -552,6 +563,14 @@ ingytrader@gmail.com</a>
     			$("#finEng1").show(2000).delay(6000).hide(2000);
     		};
 
+    		// function hideBlankSlide(){
+    		// 	$("#blankSlide").hide();
+    		// }
+
+    	
+    		function showSlide() {
+    			$("#slide").show(2000).delay(6000).hide(2000);
+    		};
 
     		function hideBlueCode() {
     			$("#blueCode").hide();
@@ -579,13 +598,22 @@ ingytrader@gmail.com</a>
     		};
 
     		function slideGeorge() {
-    			$("#george").slideDown(3000).trigger("play").delay(40000).slideUp(3000);
-			      
+    			$("#george").slideDown(3000).delay(40000).slideUp(3000);
+			       
     		};
+// .attr('src', $("#georgeDiv", parent).attr('src') + '?autoplay=1')
+//     		$('#image_id').click(function() {
+//   				$("#some_id iframe").attr('src', $("#some_id iframe", parent).attr('src') + '?autoplay=1'); 
+// });
 
-    		// function playGeorge() {
-    		// 	$("#george").trigger("play");
-    		// };
+//     		function playGeorge() {
+//     		autoPlayVideo('#george','450','283');
+//     		};
+
+//     		function autoPlayVideo(vcode, width, height){
+// 			  "use strict";
+// 			  $("#videoContainer").html('<iframe width="'+width+'" height="'+height+'" src="https://www.youtube.com/embed/'+vcode+'?autoplay=1&loop=1&rel=0&wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>');
+// }
 
     		function hireMe(){
 	    			$('#hire-me.jpg').show(3000);
@@ -596,11 +624,11 @@ ingytrader@gmail.com</a>
 	    	// 	}
 
 	    	function showResume1(){
-	    			$("#onlineResume1").show(2000).delay(6000).hide(2000);
+	    			$("#onlineResume1").show(4000).delay(6000).hide(2000);
 	    		}
 
 	    	function showResume2(){
-	    			$("#onlineResume2").show(2000).delay(6000).hide(2000);
+	    			$("#onlineResume2").show(4000).delay(6000).hide(2000);
 	    			
 	    		}
 
@@ -613,10 +641,12 @@ ingytrader@gmail.com</a>
 	    			$("#onlineResume4").show(2000).delay(6000).hide(2000);
 	    		}				
 
-    			
+    		function showResume5(){
+	    			$("#onlineResume5").show(2000).delay(7000).hide(4000);
+	    		}	
 
 	    		function bombSiren1(){
-	    			getBombSiren();
+	    			//getBombSiren();
 	    			
 	    			setTimeout(kidRock, 500);
 	    		}
@@ -629,7 +659,7 @@ ingytrader@gmail.com</a>
 
 	    		function bombSiren2(){
 	    			
-	    			getBombSiren();
+	    			//getBombSiren();
 	    			setTimeout(intro1, 20000);
 	    		}
 
@@ -677,20 +707,110 @@ ingytrader@gmail.com</a>
 
 	    		function intro9(){
 	    			ingyTraderLaunch();
-	    			setTimeout(intro10, 200000);
+	    			setTimeout(intro10, 10000);
 	    		}
 
 	    		function intro10(){
+	    			showSlide();
+	    			setTimeout(intro11, 8000);
+	    		}
+
+	    		function intro11(){
+	    			showSlide();
+	    			setTimeout(intro12, 8000);
+	    		}
+
+	    		function intro12(){
+	    			showSlide();
+	    			setTimeout(intro13, 8000);
+	    		}
+
+	    		function intro13(){
+	    			showSlide();
+	    			setTimeout(intro14, 8000);
+	    		}
+
+	    		function intro14(){
+	    			showSlide();
+	    			setTimeout(intro15, 8000);
+	    		}
+
+	    		function intro15(){
+	    			showSlide();
+	    			setTimeout(intro16, 8000);
+	    		}
+
+	    		function intro16(){
+	    			showSlide();
+	    			setTimeout(intro17, 8000);
+	    		}
+
+	    		function intro17(){
+	    			showSlide();
+	    			setTimeout(intro18, 8000);
+	    		}
+
+	    		function intro18(){
+	    			showSlide();
+	    			setTimeout(intro19, 8000);
+	    		}
+
+	    		function intro19(){
+	    			showSlide();
+	    			setTimeout(intro20, 8000);
+	    		}
+
+	    		function intro20(){
+	    			showSlide();
+	    			setTimeout(intro21, 8000);
+	    		}
+
+	    		function intro21(){
+	    			showSlide();
+	    			setTimeout(intro22, 8000);
+	    		}
+
+	    		function intro22(){
+	    			showSlide();
+	    			setTimeout(intro23, 8000);
+	    		}
+
+	    		function intro23(){
+	    			showSlide();
+	    			setTimeout(intro24, 8000);
+	    		}
+
+	    		function intro24(){
+	    			showSlide();
+	    			setTimeout(intro25, 8000);
+	    		}
+
+	    		function intro25(){
+	    			showSlide();
+	    			setTimeout(intro26, 8000);
+	    		}
+
+	    		function intro26(){
+	    			showSlide();
+	    			setTimeout(intro27, 8000);
+	    		}
+
+	    		function intro27(){
+	    			showSlide();
+	    			setTimeout(intro29, 10000);
+	    		}
+
+	    		function intro29(){
 	    			hideCodingProblem2();
-	    			setTimeout(intro11, 1000);
+	    			setTimeout(intro30, 35000);
 	    		}
 
 	    		
 
-	    		function intro11(){
+	    		function intro30(){
 	    			slideGeorge();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro12, 500);
+	    			setTimeout(intro31, 500);
 	    		}
 
 	    		// function intro12(){
@@ -699,7 +819,7 @@ ingytrader@gmail.com</a>
 	    		// 	setTimeout(intro13, 40000);
 	    		// }
 
-	    		function intro12(){
+	    		function intro31(){
 	    			showLinks();
 	    			// shows links
 	    		}
@@ -754,7 +874,7 @@ ingytrader@gmail.com</a>
 	    		}
 
 
-	    		
+	    	
 
 	    		function enter3(){
 	    			showResume2();
@@ -765,14 +885,22 @@ ingytrader@gmail.com</a>
 	    		function enter4(){
 	    			showResume3();
 	    			
-	    			setTimeout(enter5, 10000);
+	    			setTimeout(enter5, 8000);
 	    		}
 
 	    		function enter5(){
 	    			showResume4();
+	    			setTimeout(enter6, 3000);
+	    			
+	    		}
+
+	    		function enter6(){
+	    			showResume5();
 	    			
 	    			
 	    		}
+
+
 	    			
 	    			
 	    			
@@ -792,7 +920,7 @@ ingytrader@gmail.com</a>
         				$('#codingProblem3').hide(2000);
         				$('#codingProblem4').hide(2000);
         				$('#codingProblem2').hide(2000);
-        					getRoboCop();
+        					//getRoboCop();
         					slideBlack();
         					bombSiren1();
         					enter1();
@@ -804,6 +932,11 @@ ingytrader@gmail.com</a>
     });    		
 
 	</script>
+	
+	<script src="js/jquery-ui-1.11.2.custom.min.js"></script> 
+	<script src="js/jquery-1.7.2.min.js"></script> 
+	<script src="js/jquery-1.7.2.min.js"></script>  
+<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
 
 	
 	<!-- </div> -->
