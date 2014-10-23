@@ -49,6 +49,219 @@
 			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
 		}
 
+			  .jumbotron1 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron2 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron3 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron4 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron5 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron6 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron7 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron8 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron8 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron9 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron10 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin: 100px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+
+		#jumbo1{
+			color: white;
+		}
+
+		#jumbo2{
+			color: white;
+		}
+
+		#jumbo21{
+			color: white;
+		}
+
+		#jumbo22{
+			color: white;
+		}
+
+		#jumbo31{
+			color: white;
+		}
+
+		#jumbo32{
+			color: white;
+		}
+
+		#jumbo41{
+			color: white;
+		}
+
+		#jumbo42{
+			color: white;
+		}
+
+		#jumbo51{
+			color: white;
+		}
+
+		#jumbo52{
+			color: white;
+		}
+
+		#jumbo61{
+			color: white;
+		}
+
+		#jumbo62{
+			color: white;
+		}
+
+		#jumbo71{
+			color: white;
+		}
+
+		#jumbo72{
+			color: white;
+		}
+
+		#jumbo81{
+			color: white;
+		}
+
+		#jumbo82{
+			color: white;
+		}
+
+		#jumbo91{
+			color: white;
+		}
+
+		#jumbo92{
+			color: white;
+		}
+
+		#jumbo101{
+			color: white;
+		}
+
+		#jumbo102{
+			color: white;
+		}
+
 		#slide {
 			position: relative;
 		    /*left: 0px;
@@ -130,18 +343,7 @@
 			color: red;
 		}
 
-		.jumbotron {
-              padding: 0px;
-              margin-bottom: 20px;
-              background-color: transparent;
-              text-align: center;
-
-              color: black;
-              float: right;
-              opacity: 0.8;
-    			filter: alpha(opacity=40);
-              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
-              }
+		
 
               .container .jumbotron {
               border-radius: 50px;
@@ -151,22 +353,12 @@
               	border-radius: 50px;
               }
 
-		/*.game-board{
-			/*width: 700px;*/
-			/*text-align: center;*/
-			/*margin-left: 0px;
-			padding: 0px;
-			margin-bottom: 20px;
-			padding-bottom: 20px;
-			float: left;
-
-			/*border: 1px solid white;
-		}*/
+		
 
 		.mole{
 			display: none;
-			/*text-align: center;*/
 		}
+
 		.mole-hole{
 			width: 115px;
 			height: 115px;
@@ -175,7 +367,6 @@
 			margin-left: 0px;
 			border: 2px solid transparent;
 
-			/*text-align: center;*/
 		}
 
 		span{
@@ -202,10 +393,7 @@
         <div class="row">
           <div class="col-xs-10 col-md-8">
 
-          	<div class="jumbotron">
-            
-				<!-- <h3>INGYTRADER.COM</h3> -->
-				<audio class="audio-player" id="kidrock" src="Kid Rock-Bawitdaba (www.myfreemp3.cc).mp3"></audio>
+          <audio class="audio-player" id="kidrock" src="Kid Rock-Bawitdaba (www.myfreemp3.cc).mp3"></audio>
 
 				<audio class="audio-player" id="bombsiren" src="BOMB_SIREN-BOMB_SIREN-247265934.mp3"></audio>
 
@@ -220,12 +408,6 @@
 				<audio class="audio-player" id="losses" src="I dont like losses.mp3"></audio>
 
 				<audio class="audio-player" id="mainthing" src="Main thing about money.mp3"></audio>
-				
-			</div>
-
-		<div class = "felony">
-			
-		</div>
 
 		</div>
 	</div>
@@ -274,7 +456,66 @@
 	<!-- <div id="videoContainer">
   <iframe width="450" height="283" src="https://www.youtube.com/embed/VIDEO_ID_HERE?wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>
 </div> -->
+			<div class="jumbotron1">
+            
+				<h1 id="jumbo1">Part I</h1>
+				<h2 id="jumbo2">How it All Started</h2>
+			</div>
 
+			<div class="jumbotron2">
+            
+				<h1 id="jumbo21">Part II</h1>
+				<h2 id="jumbo22">"The Trader"</h2>
+			</div>
+
+			<div class="jumbotron3">
+            
+				<h1 id="jumbo31">Part III</h1>
+				<h2 id="jumbo32">"Texas Oil Man"</h2>
+			</div>
+
+			<div class="jumbotron4">
+            
+				<h1 id="jumbo41">Part IV</h1>
+				<h2 id="jumbo42">"Full Stack Web Developer"</h2>
+			</div>
+
+			<div class="jumbotron5">
+            
+				<h1 id="jumbo51">Part I</h1>
+				<h2 id="jumbo52">How it All Started</h2>
+			</div>
+
+			<div class="jumbotron6">
+            
+				<h1 id="jumbo61">Part II</h1>
+				<h2 id="jumbo62">"The Trader"</h2>
+			</div>
+
+			<div class="jumbotron7">
+            
+				<h1 id="jumbo71">Part III</h1>
+				<h2 id="jumbo72">"Texas Oil Man"</h2>
+			</div>
+
+			<div class="jumbotron8">
+            
+				<h1 id="jumbo81">Part IV</h1>
+				<h2 id="jumbo82">"Full Stack Web Developer"</h2>
+			</div>
+
+			<div class="jumbotron9">
+            
+				<h1 id="jumbo91">Part III</h1>
+				<h2 id="jumbo92">"Texas Oil Man"</h2>
+			</div>
+
+			<div class="jumbotron10">
+            
+				<h1 id="jumbo101">Part IV</h1>
+				<h2 id="jumbo102">"Full Stack Web Developer"</h2>
+			</div>
+	
 	
 <div id = "georgeDiv">
 	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
@@ -325,16 +566,7 @@
 
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem4" >ingytrader@gmail.com</a></h1>
 
-<!-- <h1 id="codingProblem4" >ingytrader@gmail.com</h1> -->
 
-<!-- <h3>
-
-<a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top">
-ingytrader@gmail.com</a>
-</h3> -->
-
-<!-- <p>
-<b>Note:</b> Spaces between words should be replaced by %20 to ensure that the browser will display the text properly.
 </p> -->
 </div>
 	<script>
@@ -349,7 +581,18 @@ ingytrader@gmail.com</a>
 				hideFinEng1();
 				$("#slide").hide();
 				$("#onlineResume5").hide();
-
+				$(".jumbotron1").hide();
+				$(".jumbotron2").hide();
+				// $("#jumbo1").hide();
+				// $("#jumbo2").hide();
+				$(".jumbotron3").hide();
+				$(".jumbotron4").hide();
+				$(".jumbotron5").hide();
+				$(".jumbotron6").hide();
+				$(".jumbotron7").hide();
+				$(".jumbotron8").hide();
+				$(".jumbotron9").hide();
+				$(".jumbotron10").hide();
 
 		function getshortI(){
         		
@@ -568,9 +811,66 @@ ingytrader@gmail.com</a>
     		// }
 
     	
-    		function showSlide() {
-    			$("#slide").show(2000).delay(6000).hide(2000);
+    		function showSlide1() {
+    			$(".jumbotron1").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
     		};
+
+    		function showSlide2() {
+    			$(".jumbotron2").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide3() {
+    			$(".jumbotron3").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide4() {
+    			$(".jumbotron4").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide5() {
+    			$(".jumbotron5").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide6() {
+    			$(".jumbotron6").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide7() {
+    			$(".jumbotron7").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide8() {
+    			$(".jumbotron8").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide9() {
+    			$(".jumbotron9").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide10() {
+    			$(".jumbotron10").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			// $("#jumbo1").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			// $("#jumbo2").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
 
     		function hideBlueCode() {
     			$("#blueCode").hide();
@@ -624,7 +924,7 @@ ingytrader@gmail.com</a>
 	    	// 	}
 
 	    	function showResume1(){
-	    			$("#onlineResume1").show(4000).delay(6000).hide(2000);
+	    			$("#onlineResume1").show(5000).delay(5000).hide(2000);
 	    		}
 
 	    	function showResume2(){
@@ -711,53 +1011,53 @@ ingytrader@gmail.com</a>
 	    		}
 
 	    		function intro10(){
-	    			showSlide();
-	    			setTimeout(intro11, 8000);
+	    			showSlide1();
+	    			setTimeout(intro11, 10000);
 	    		}
 
 	    		function intro11(){
-	    			showSlide();
-	    			setTimeout(intro12, 8000);
+	    			showSlide2();
+	    			setTimeout(intro12, 10000);
 	    		}
 
 	    		function intro12(){
-	    			showSlide();
-	    			setTimeout(intro13, 8000);
+	    			showSlide3();
+	    			setTimeout(intro13, 10000);
 	    		}
 
 	    		function intro13(){
-	    			showSlide();
-	    			setTimeout(intro14, 8000);
+	    			showSlide4();
+	    			setTimeout(intro14, 10000);
 	    		}
 
 	    		function intro14(){
-	    			showSlide();
-	    			setTimeout(intro15, 8000);
+	    			showSlide5();
+	    			setTimeout(intro15, 10000);
 	    		}
 
 	    		function intro15(){
-	    			showSlide();
-	    			setTimeout(intro16, 8000);
+	    			showSlide6();
+	    			setTimeout(intro16, 10000);
 	    		}
 
 	    		function intro16(){
-	    			showSlide();
-	    			setTimeout(intro17, 8000);
+	    			showSlide7();
+	    			setTimeout(intro17, 10000);
 	    		}
 
 	    		function intro17(){
-	    			showSlide();
-	    			setTimeout(intro18, 8000);
+	    			showSlide8();
+	    			setTimeout(intro18, 10000);
 	    		}
 
 	    		function intro18(){
-	    			showSlide();
-	    			setTimeout(intro19, 8000);
+	    			showSlide9();
+	    			setTimeout(intro19, 10000);
 	    		}
 
 	    		function intro19(){
-	    			showSlide();
-	    			setTimeout(intro20, 8000);
+	    			showSlide10();
+	    			setTimeout(intro20, 10000);
 	    		}
 
 	    		function intro20(){
@@ -797,20 +1097,16 @@ ingytrader@gmail.com</a>
 
 	    		function intro27(){
 	    			showSlide();
-	    			setTimeout(intro29, 10000);
+	    			setTimeout(intro28, 10000);
 	    		}
 
-	    		function intro29(){
-	    			hideCodingProblem2();
-	    			setTimeout(intro30, 35000);
-	    		}
-
+	 
 	    		
 
-	    		function intro30(){
+	    		function intro28(){
 	    			slideGeorge();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro31, 500);
+	    			setTimeout(intro29, 500);
 	    		}
 
 	    		// function intro12(){
@@ -819,7 +1115,7 @@ ingytrader@gmail.com</a>
 	    		// 	setTimeout(intro13, 40000);
 	    		// }
 
-	    		function intro31(){
+	    		function intro29(){
 	    			showLinks();
 	    			// shows links
 	    		}
