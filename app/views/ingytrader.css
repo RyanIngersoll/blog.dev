@@ -65,6 +65,20 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron2b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron3 {
               position: relative;
     		  z-index: 1;
@@ -93,6 +107,20 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron4b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron5 {
               position: relative;
     		  z-index: 1;
@@ -107,7 +135,35 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron5b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron6 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron6b {
               position: relative;
     		  z-index: 1;
               background-color: black;
@@ -149,6 +205,20 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron8b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron9 {
               position: relative;
     		  z-index: 1;
@@ -177,7 +247,35 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron10b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron11 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron11b {
               position: relative;
     		  z-index: 1;
               background-color: black;
@@ -303,6 +401,20 @@
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
+              .jumbotron19b {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
               .jumbotron20 {
               position: relative;
     		  z-index: 1;
@@ -316,6 +428,36 @@
               margin-top: 0px;
               	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
+
+              .jumbotron21 {
+              position: relative;
+    		  z-index: 1;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+              .jumbotron22 {
+              position: relative;
+    		  z-index: 2;
+              background-color: black;
+              text-align: center;
+              border-radius: 50px;
+              color: white;
+              padding: 50px;
+              margin-left: 100px;
+              margin-right: 100px;
+              margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
+
+
 
 
 		#jumbo1{

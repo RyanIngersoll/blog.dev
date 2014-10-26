@@ -77,73 +77,118 @@ require 'ingytrader.css';
 
 	<!-- <div id="videoContainer">
   <iframe width="450" height="283" src="https://www.youtube.com/embed/VIDEO_ID_HERE?wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>
-</div> -->
+</div> -->	<div class="jumbotron22">
+            
+				<button id="resume-hide-button" class="myButton">close</button>
+				<i><h1 id="jumbo211">this will be my resume!</h1></i>
+			</div>
+
+
+
+			<div class="jumbotron21">
+            
+				<i><h1 id="jumbo211">THINK OUTSIDE THE BOX!!!!</h1></i>
+				<!-- <h1 id="jumbo2"></h1> -->
+
+				<div id = "georgeDiv">
+				<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+
 			<div class="jumbotron1">
             
 				<h1 id="jumbo1">Part I</h1>
-				<h2 id="jumbo2">"How it all started"</h2>
+				<h1 id="jumbo2">"How it all started"</h1>
 			</div>
 
 			<div class="jumbotron2">
             
 				<h1 id="jumbo21">As far back as I can remember, I knew I was going to be a trader.</h1>
-				<h2 id="jumbo22"> "WALL STREET" was my favorite movie and the cultural icon "Gordon Gekko" had become my inspiration.</h2>
+			</div>
+			
+			<div class="jumbotron2b">
+				<h1 id="jumbo22">As I grew up, "WALL STREET" was my favorite movie and "Gordon Gekko" had become a cultural icon.</h1>
 			</div>
 
 			<div class="jumbotron3">
             
 				<h1 id="jumbo31"></h1>
-				<h2 id="jumbo32">But in order to become "Gekko", first I had to be "Bud Fox" and after college I began as a retail investment broker at a small firm in Texas</h2>
+				<h1 id="jumbo32">But in order to become "Gekko", first I had to be "Bud Fox". So after college I became a stock broker at a small firm in Texas.</h1>
 			</div>
 
 			<div class="jumbotron4">
             
-				<h1 id="jumbo41">Over the next seven years I continued to build my client list and move closer to my goals.</h1>
-				<h2 id="jumbo42">BUT the INTERNET revolution forever changed the way investments were managed and I had to adapt in order to survive.</h2>
+				<h1 id="jumbo41">Over the next seven years I paid my dues and worked my way closer to the goal.</h1>
+			</div>
+
+			<div class="jumbotron4b">
+
+				<h1 id="jumbo42">But the INTERNET revolution of the 90's had changed the investment industry and I would have to adapt in order to survive.</h1>
 			</div>
 
 			<div class="jumbotron5">
             
-				<h1 id="jumbo51">I went back to graduate school and received both an MBA and an M.S. in Financial Engineering</h1>
-				<h2 id="jumbo52">I was chosen among my peers to intern at Goldman Sachs in NYC.</h2>
+				<h1 id="jumbo51">So in 2002, I went back to graduate school and received both an MBA and an M.S. in Financial Engineering.</h1>
+			</div>
+
+			<div class="jumbotron5b">
+
+				<h1 id="jumbo52">Then in 2006, I was chosen among my peers to intern at Goldman Sachs in NYC. I had finally arrived on Wall Street.</h1>
 			</div>
 
 			<div class="jumbotron6">
             
-				<h1 id="jumbo61">Working on Wall Street was an amazing experience.</h1>
-				<h2 id="jumbo62">But Chicago was "my kind of town" and ultimately I found myself converging on ground zero of the commodity trading world.</h2>
+				<h1 id="jumbo61">"If you can make it in NY, you can make it anywhere."</h1>
+			</div>
+
+			<div class="jumbotron6b">
+				<h1 id="jumbo62">But Chicago was "my kind of town" and because it is THE center of the commodity trading world, it was only a matter of time before I made it my home.</h1>
 			</div>
 
 			<div class="jumbotron7">
             
 				<h1 id="jumbo71">Part II</h1>
-				<h2 id="jumbo72">"The Trader"</h2>
+				<h1 id="jumbo72">"The Trader"</h1>
 			</div>
 
 			<div class="jumbotron8">
             
-				<h1 id="jumbo81">In 2006, I started "Ingersoll Investment Co" in Chicago engaging the quantitative strategies I had learned to develop through my education and experience.</h1>
-				<h2 id="jumbo82">Volatility was my specialty.</h2>
+				<h1 id="jumbo81">In 2006, I started "Ingersoll Investment Co." A  commodity futures trading firm in Chicago.</h1>
+			</div>
+				
+			<div class="jumbotron8b">
+				<h1 id="jumbo82">Trading volatility was my specialty.</h1>
 			</div>
 
 			<div class="jumbotron9">
             
-				<h1 id="jumbo91">By 2007, I was one of the largest volume traders in Russell 2000 emini options on futures. Butterflies, put and call spreads, straddles and strangles, both long and short were my primary positions.</h1>
+				<h1 id="jumbo91">By 2007, I was one of the largest volume traders in Russell 2000 emini options on futures. Butterflies, put and call spreads, straddles and strangles were my main weapons.</h1>
 				<h2 id="jumbo92"></h2>
 			</div>
 
 			<div class="jumbotron10">
             
-				<h1 id="jumbo101">"HFT" and "co-location" became the new buzzwords of computerized trading models.</h1>
-				<h2 id="jumbo102">By 2012 it was clear that I would have to evolve yet again if I wanted to stay in the business.</h2>
-			</div>
-	
-			<div class="jumbotron11">
-            
-				<h1 id="jumbo111">I came back to Texas and took a new position as Head of Technology and Investment Strategies with SRI Diversified Capital.</h1>
-				<h2 id="jumbo112">"My work in alternative assets led to my creation of the "ILF Index". A new futures platform for a more efficient method for insurance linked risk transfer"</h2>
+				<h1 id="jumbo101">But by 2012, trading was changing again as "dark pools" and "co-location" were the new buzz-words on both Wall Street and the pits of Chicago.</h1>
+
 			</div>
 
+			<div class="jumbotron10b">
+
+				<h1 id="jumbo102">To stay relevant in the new paradigm of High Frequency Trading, I would have to become a programmer.</h1>
+			</div>
+	
+			<!-- <div class="jumbotron11">
+            
+				<h1 id="jumbo111">I made a tactical decision to return to Texas and reinvent myself yet again.</h1>
+
+			</div> -->
+			
+			<!-- <div class="jumbotron11b">	
+				<h1 id="jumbo112">I took a job as "rough neck" in the oil fields of South Texas to make ends meet.</h1>
+			</div>
+ -->
 			<div class="jumbotron12">
             
 				<h1 id="jumbo121">And then most important window of my career flew wide open.</h1>
@@ -153,58 +198,58 @@ require 'ingytrader.css';
 			<div class="jumbotron13">
             
 				<h1 id="jumbo131">Part III</h1>
-				<h2 id="jumbo132">"The Programmer"</h2>
+				<h1 id="jumbo132">"The Codeup Experience"</h1>
 			</div>
 
 			<div class="jumbotron14">
             
-				<h1 id="jumbo141">Part IV</h1>
-				<h2 id="jumbo142">"Codeup"</h2>
+				<h1 id="jumbo141">So often, timing is everything and just when I needed it the most, the Codeup bootcamp for web developers was born.</h1>
+				<h2 id="jumbo142"></h2>
 			</div>
 
 			<div class="jumbotron15">
             
-				<h1 id="jumbo151">Part I</h1>
-				<h2 id="jumbo152">How it All Started</h2>
+				<h1 id="jumbo151">Codeup turns non-tech professionals into full-stack web development programmers.</h1>
+				<h2 id="jumbo152"></h2>
 			</div>
 
-			<div class="jumbotron16">
+			<!-- <div class="jumbotron16">
             
-				<h1 id="jumbo161">Part II</h1>
-				<h2 id="jumbo162">"The Trader"</h2>
-			</div>
+				<h1 id="jumbo161">As soon as I found out about the program, I enrolled the next day.</h1>
+				<h2 id="jumbo162"></h2>
+			</div> -->
 
 			<div class="jumbotron17">
             
-				<h1 id="jumbo171">Part III</h1>
-				<h2 id="jumbo172">"Texas Oil Man"</h2>
+				<h1 id="jumbo171">As a graduate of Codeup, I now have the right tools to return to the business I love.</h1>
 			</div>
 
-			<div class="jumbotron18">
+			<!-- <div class="jumbotron18">
             
 				<h1 id="jumbo181">Part IV</h1>
-				<h2 id="jumbo182">"Full Stack Web Developer"</h2>
-			</div>
+				<h1 id="jumbo182">"Full Stack Web Developer"</h1>
+			</div> -->
 
 			<div class="jumbotron19">
             
-				<h1 id="jumbo191">Part III</h1>
-				<h2 id="jumbo192">"Texas Oil Man"</h2>
+				<h1 id="jumbo191">I am an object oriented programmer. Well trained in the LAMP+J stack with the ability to write PHP into the Laravel MVC framework.</h1>
+
+			</div>
+
+			<div class="jumbotron19b">
+				<h1 id="jumbo192">But more importantly, I have learned how to learn code. Which means I can adapt quickly to the unique frameworks of various developer shops.</h1>
 			</div>
 
 			<div class="jumbotron20">
             
-				<h1 id="jumbo201">Part IV</h1>
-				<h2 id="jumbo202">"Full Stack Web Developer"</h2>
+				<h1 id="jumbo201">When you hire me, your getting an outside the box programmer with 20 years of trading experience, who never stops pushing himself to learn, adapt and overcome.</h1>
 			</div>
 
 
-<div id = "georgeDiv">
-	<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
-</div>
-	
 
-	<h1><a href="http://espn.go.com/" target="_blank" id="portfolio" >Portfolio</a></h1>
+	<h3><button id="resume-show-button" class="myButton">FULL-RESUME</button></h3>
+
+	<h1><a href="http://ingytrader.com/" target="_blank" id="portfolio" >RESTART</a></h1>
 
 	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
 
@@ -251,7 +296,7 @@ require 'ingytrader.css';
 				var ingy;
 				var counter = 0;
 				var t = 0;
-				hideGeorge();
+				//hideGeorge();
 				hideLinks();
 				hideBlueCode();
 				hideOnlineResume();
@@ -260,15 +305,22 @@ require 'ingytrader.css';
 				$("#onlineResume5").hide();
 				$(".jumbotron1").hide();
 				$(".jumbotron2").hide();
+				$(".jumbotron2b").hide();
 				$(".jumbotron3").hide();
 				$(".jumbotron4").hide();
+				$(".jumbotron4b").hide();
 				$(".jumbotron5").hide();
+				$(".jumbotron5b").hide();
 				$(".jumbotron6").hide();
+				$(".jumbotron6b").hide();
 				$(".jumbotron7").hide();
 				$(".jumbotron8").hide();
+				$(".jumbotron8b").hide();
 				$(".jumbotron9").hide();
 				$(".jumbotron10").hide();
+				$(".jumbotron10b").hide();
 				$(".jumbotron11").hide();
+				$(".jumbotron11b").hide();
 				$(".jumbotron12").hide();
 				$(".jumbotron13").hide();
 				$(".jumbotron14").hide();
@@ -277,7 +329,11 @@ require 'ingytrader.css';
 				$(".jumbotron17").hide();
 				$(".jumbotron18").hide();
 				$(".jumbotron19").hide();
+				$(".jumbotron19b").hide();
 				$(".jumbotron20").hide();
+				$(".jumbotron21").hide();
+				$(".jumbotron22").hide();
+
 
 		function getshortI(){
 
@@ -448,84 +504,136 @@ require 'ingytrader.css';
 
     	
     		function showSlide1() {
-    			$(".jumbotron1").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron1").toggle("slide", 1000).delay(2000).toggle("pulsate", 1000);
     		};
 
     		function showSlide2() {
-    			$(".jumbotron2").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron2").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
     		};
 
+    		function showSlide2b() {
+    			$(".jumbotron2b").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
+    		};
+
+
     		function showSlide3() {
-    			$(".jumbotron3").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron3").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide4() {
-    			$(".jumbotron4").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron4").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide4b() {
+    			$(".jumbotron4b").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide5() {
-    			$(".jumbotron5").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron5").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide5b() {
+    			$(".jumbotron5b").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide6() {
-    			$(".jumbotron6").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron6").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide6b() {
+    			$(".jumbotron6b").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
     		};
 
     		function showSlide7() {
-    			$(".jumbotron7").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron7").toggle("slide", 1000).delay(2000).toggle("pulsate", 1000);
     		};
 
     		function showSlide8() {
-    			$(".jumbotron8").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron8").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide8b() {
+    			$(".jumbotron8b").toggle("slide", 1000).delay(2000).toggle("pulsate", 1000);
     		};
 
     		function showSlide9() {
-    			$(".jumbotron9").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron9").toggle("slide", 1000).delay(9000).toggle("pulsate", 1000);
     		};
 
     		function showSlide10() {
-    			$(".jumbotron10").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron10").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide10b() {
+    			$(".jumbotron10b").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide11() {
-    			$(".jumbotron11").toggle("slide", 1000).delay(11000).toggle("pulsate", 1000);
+    			$(".jumbotron11").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
+    		};
+
+
+    		function showSlide11b() {
+    			$(".jumbotron11b").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
     		};
 
     		function showSlide12() {
-    			$(".jumbotron12").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron12").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
     		};
 
     		function showSlide13() {
-    			$(".jumbotron13").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron13").toggle("slide", 1000).delay(2000).toggle("pulsate", 1000);
     		};
 
     		function showSlide14() {
-    			$(".jumbotron14").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron14").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide15() {
-    			$(".jumbotron15").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron15").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
     		};
 
     		function showSlide16() {
-    			$(".jumbotron16").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron16").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
     		};
 
     		function showSlide17() {
-    			$(".jumbotron17").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron17").toggle("slide", 1000).delay(5000).toggle("pulsate", 1000);
     		};
 
     		function showSlide18() {
-    			$(".jumbotron18").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron18").toggle("slide", 1000).delay(3000).toggle("pulsate", 1000);
     		};
 
     		function showSlide19() {
-    			$(".jumbotron19").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron19").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    		};
+
+    		function showSlide19b() {
+    			$(".jumbotron19b").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
     		};
 
     		function showSlide20() {
-    			$(".jumbotron20").toggle("slide", 1000).delay(4000).toggle("pulsate", 1000);
+    			$(".jumbotron20").toggle("slide", 1000).delay(8000).toggle("slide", 1000);
     		};
+
+    		function showSlide21() {
+    			$(".jumbotron21").slideDown(2000);
+    			$("#george").slideDown(2000).delay(40000).slideUp(2000);
+
+    		};
+
+    		function showSlide22() {
+    			$(".jumbotron22").slideDown(2000);
+ 			
+ 			};
+
+ 			function hideSlide22() {
+    			$(".jumbotron22").slideUp(2000);
+ 			
+ 			};
+
+
 
 
     		function hideBlueCode() {
@@ -548,7 +656,7 @@ require 'ingytrader.css';
     		};
 
     		function slideGeorge() {
-    			$("#george").slideDown(3000).delay(40000).slideUp(3000);
+    			$("#george").slideDown(2000).delay(40000).slideUp(2000);
 			       
     		};
 // .attr('src', $("#georgeDiv", parent).attr('src') + '?autoplay=1')
@@ -656,102 +764,152 @@ require 'ingytrader.css';
 
 	    		function intro10(){
 	    			showSlide1();
-	    			setTimeout(intro11, 8000);
+	    			setTimeout(intro11, 5000);
 	    		}
 
 	    		function intro11(){
 	    			showSlide2();
-	    			setTimeout(intro12, 14000);
+	    			setTimeout(intro12, 6000);
 	    		}
 
 	    		function intro12(){
-	    			showSlide3();
-	    			setTimeout(intro13, 14000);
+	    			showSlide2b();
+	    			setTimeout(intro13, 8000);
 	    		}
 
 	    		function intro13(){
-	    			showSlide4();
-	    			setTimeout(intro14, 14000);
+	    			showSlide3();
+	    			setTimeout(intro14, 9000);
 	    		}
 
 	    		function intro14(){
-	    			showSlide5();
-	    			setTimeout(intro15, 14000);
+	    			showSlide4();
+	    			setTimeout(intro15, 8000);
 	    		}
 
 	    		function intro15(){
-	    			showSlide6();
-	    			setTimeout(intro16, 14000);
+	    			showSlide4b();
+	    			setTimeout(intro16, 9000);
 	    		}
 
 	    		function intro16(){
-	    			showSlide7();
-	    			setTimeout(intro17, 7000);
+	    			showSlide5();
+	    			setTimeout(intro17, 9000);
 	    		}
 
 	    		function intro17(){
-	    			showSlide8();
-	    			setTimeout(intro18, 14000);
+	    			showSlide5b();
+	    			setTimeout(intro18, 9000);
 	    		}
 
 	    		function intro18(){
-	    			showSlide9();
-	    			setTimeout(intro19, 14000);
+	    			showSlide6();
+	    			setTimeout(intro19, 6000);
 	    		}
 
 	    		function intro19(){
-	    			showSlide10();
-	    			setTimeout(intro20, 14000);
+	    			showSlide6b();
+	    			setTimeout(intro20, 10000);
 	    		}
 
 	    		function intro20(){
-	    			showSlide11();
-	    			setTimeout(intro21, 14000);
+	    			showSlide7();
+	    			setTimeout(intro21, 5000);
 	    		}
 
 	    		function intro21(){
-	    			showSlide12();
-	    			setTimeout(intro22, 7000);
+	    			showSlide8();
+	    			setTimeout(intro22, 8000);
 	    		}
 
 	    		function intro22(){
-	    			showSlide13();
-	    			setTimeout(intro23, 7000);
+	    			showSlide8b();
+	    			setTimeout(intro23, 5000);
 	    		}
 
 	    		function intro23(){
-	    			showSlide14();
-	    			setTimeout(intro24, 14000);
+	    			showSlide9();
+	    			setTimeout(intro24, 12000);
 	    		}
 
-	    		// function intro24(){
-	    		// 	showSlide15();
-	    		// 	setTimeout(intro25, 14000);
-	    		// }
+	    		function intro24(){
+	    			showSlide10();
+	    			setTimeout(intro25, 10000);
+	    		}
 
-	    		// function intro25(){
-	    		// 	showSlide16();
-	    		// 	setTimeout(intro26, 14000);
-	    		// }
+	    		function intro25(){
+	    			showSlide10b();
+	    			setTimeout(intro28, 9000);
+	    		}
 
 	    		// function intro26(){
-	    		// 	showSlide17();
-	    		// 	setTimeout(intro27, 14000);
+	    		// 	showSlide11();
+	    		// 	setTimeout(intro28,6000);
 	    		// }
 
 	    		// function intro27(){
-	    		// 	showSlide18();
-	    		// 	setTimeout(intro28, 14000);
+	    		// 	showSlide11b();
+	    		// 	setTimeout(intro28, 9000);
 	    		// }
 
-	    		function intro24(){
-	    			slideGeorge();
+	    		function intro28(){
+	    			showSlide12();
+	    			setTimeout(intro29, 6000);
+	    		}
+
+	    		function intro29(){
+	    			showSlide13();
+	    			setTimeout(intro30, 5000);
+	    		}
+
+	    		function intro30(){
+	    			showSlide14();
+	    			setTimeout(intro31, 9000);
+	    		}
+
+	    		function intro31(){
+	    			showSlide15();
+	    			setTimeout(intro33, 8000);
+	    		}
+
+	    		// function intro32(){
+	    		// 	showSlide16();
+	    		// 	setTimeout(intro33, 6000);
+	    		// }
+
+	    		function intro33(){
+	    			showSlide17();
+	    			setTimeout(intro35, 8000);
+	    		}
+
+	    		// function intro34(){
+	    		// 	showSlide18();
+	    		// 	setTimeout(intro35, 6000);
+	    		// }
+
+	    		function intro35(){
+	    			showSlide19();
+	    			setTimeout(intro36, 9000);
+	    		}
+
+	    		function intro36(){
+	    			showSlide19b();
+	    			setTimeout(intro37, 10000);
+	    		}
+
+	    		function intro37(){
+	    			showSlide20();
+	    			setTimeout(intro38, 11000);
+	    		}
+
+				function intro38(){
+	    			showSlide21();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro31, 500);
+	    			setTimeout(intro39, 40000);
 	    		}
 
 
-	    		function intro31(){
+	    		function intro39(){
 	    			showLinks();
 
 	    		}
@@ -770,6 +928,7 @@ require 'ingytrader.css';
 
 
 	    		function hideLinks(){
+	    			$('#resume-show-button').hide();
 	    			$('#portfolio').hide();
 		    		$('#github').hide();
 		    		$('#linkedin').hide();
@@ -777,10 +936,11 @@ require 'ingytrader.css';
     			}
 
 	    		function showLinks(){
+	    			$('#resume-show-button').slideDown(2000);
 	    			$('#portfolio').slideDown(2000);
-	    			$('#github').slideDown(4000);
-	    			$('#linkedin').slideDown(6000);
-	    			$('#home').slideDown(8000);
+	    			$('#github').slideDown(2000);
+	    			$('#linkedin').slideDown(2000);
+	    			$('#home').slideDown(2000);
 	    		}
 
 	    		function slideBlack(){
@@ -837,7 +997,19 @@ require 'ingytrader.css';
         					slideBlack();
         					bombSiren1();
         					enter1();
-  						}); 
+  						});
+
+	    				$('#resume-show-button').click(function() {
+
+    						$(".jumbotron22").slideDown(2000);
+ 					});
+
+ 	
+
+
+	    				$('#resume-hide-button').click(function() {
+	    					$(".jumbotron22").slideUp(2000);
+	    			}); 
 
     });    		
 
