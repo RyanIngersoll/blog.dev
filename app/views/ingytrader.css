@@ -22,6 +22,14 @@
 	text-decoration:none;
 	text-shadow:4px 7px 0px #ffffff;
 }
+
+#resume-show-button{
+	background-color:black;
+	color:red;
+
+}
+
+
 /*.myButton:hover {
 	background-color: black;
 }*/
@@ -35,6 +43,10 @@
 			background-color: white;
 			/*cursor:url("cellphone.png"), auto;*/
 			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
+		}
+
+		#left{
+			text-align: left;
 		}
 
 			  .jumbotron1 {

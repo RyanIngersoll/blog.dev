@@ -80,14 +80,84 @@ require 'ingytrader.css';
 </div> -->	<div class="jumbotron22">
             
 				<button id="resume-hide-button" class="myButton">close</button>
-				<i><h1 id="jumbo211">this will be my resume!</h1></i>
+				<h1 id="jumbo211">RYAN INGERSOLL</h1>
+				<h3  id="jumbo211">24385 Wilderness Oak #8306, San Antonio, TX. 78258--ingytrader@gmail.com--cell#(210)-912-4339--ingytrader.com</h3>
+				<h1 id="jumbo211">_____________________________________________________________________________________________________</h1>
+
+				<u><h1 id="left">Financial Engineer and Full Stack Web Developer</h1></u>
+				<h4 id="left">I own the unique double threat of being a full-stack, web developer coupled with the savvy of a veteran derivatives trader of the last two decades. The value I deliver lies in my ability to <span>develop and code proprietary quantitative strategies</span> as well as bridge the communication gaps which occur between trading desks and application developers for investment banks, prop firms or hedge funds.</h4><br>
+				<h2 id="left">Full Stack Web Developer (LAMP +J) </h2>
+				<h2 id="left">Linux/Apache/MySQL/PHP</h2>
+				<h2 id="left">JavaScript and jQuery</h2>
+				<h2 id="left">Laravel MVC framework</h2>
+				<h2 id="left">HTML/CSS and Twitter Bootstrap</h2><br><br>
+
+				<u><h1 id="left">Professional Experience</h1></u>
+				<i><h2 id="left">Director of Investment Research and Technology</i></h2>
+				<h4 id="left">(October 2013 to Present)</h4>
+				<h3 id="left">SRI Diversified Capital, LLC. San Antonio, TX.</h3><br><br>
+
+				<i><h2 id="left">Commodity Futures Trader</h2></i>
+				<h4 id="left">(2006 to 2013)</h4>
+				<h3 id="left">Ingersoll Investment Co., Chicago, IL</h3>
+
+				<i><h2 id="left">Summer Analyst</i></h2>
+				<h4 id="left">(Summer 2006)</h4>
+				<h3 id="left">Goldman Sachs, New York City, NY</h3>
+
+				<i><h2 id="left">Equity Trader</i></h2>
+				<h4 id="left">(1999-2006)</h4>
+				<h3 id="left">Independent, San Antonio, TX.</h3>
+
+				<i><h2 id="left">Branch Manager</i></h2>
+				<h4 id="left">(1996-1999)</h4>
+				<h3 id="left">Paulson Investment Co., San Antonio, TX.</h3>
+
+				<i><h2 id="left">Investment Representative</i></h2>
+				<h4 id="left">(1994-1996)</h4>
+				<h3 id="left">George E. Dullnig & Co., San Antonio, TX.</h3><br><br>
+
+				<h4 id="left">I am currently enrolled in <span>Codeup's</span> immersive 12-week Web Developer/Programming bootcamp for working professionals (Graduation Nov. 5th 2014). This is an intense program to develop skills with the LAMP +J stack: Linux/Apache/MySQL/PHP and client-side JavaScript using the Laravel framework and jQuery. The curriculum goes way beyond the parameters of traditional computer science degrees through <span>interaction with the local tech community</span> to create new business web applications via the capstone project. In this way, Codeup graduates become seasoned "plug and play" problem solvers who bring <span>value added solutions to solve company specific issues.</span></h4><br><br>
+
+				<u><h1 id="left">Achievements and Leadership</h1></u><br>
+
+				<h4 id="left">As the lead investment and technology analyst for SRI Diversified Capital, I have consulted on multiple drilling projects within the Eagle Ford Shale development. One of my primary responsibilities is to <span>create unique risk management solutions for the energy sector.</span> This eventually led to an extension of profit opportunities of insurance beyond gap coverage of liabilities. Specifically I was able to draw on my <span>expertise in risk transfer and distribution</span> through the futures markets to <span>engineer the framework of a new exchange traded derivatives platform</span> for the reinsurance industry known as the ILF index.</h4><br>
+
+				<h4 id="left">Having traded across the entire spectrum of the capital markets, IMHO The Russell 2000 Index futures (symbol #TF) offer the best combination of volatility, liquidity and low trading costs available. It is no coincidence then my primary strategy is a <span>long/short option strategy focused around monthly expiration cycles of the #TF front month contract.</span> To a lesser extent, I deployed capital around the <span>WTI Crude futures</span> (symbol CL). This was a volatility based system taking its entry and exits from my <span>proprietary blend of the S&P VIX and the crude oil VIX.</span> When the opportunities were right, I took less frequent positions against <span>wheat, corn, soybeans, copper, 10 year Treasuries, S&P 500, Nasdaq and the Dow Jones.</span> My option strategies combined <span>put and call spreads, butterflies, strip, strap, strangles, and calendar spreads.</span> Options consistently gave added flexibility to my directional trading as well as valuable risk management to my overall core positions. </h4><br>
+
+				<h4 id="left"><span>Chosen by Goldman Sachs</span> for the Summer Analyst Program was the direct result of graduating from Kent State’s prestigious master’s program in Financial Engineering.  My primary team assignments were to <span>manage risk through bundling single name issuances of corporate debt</span> within the Bank’s inventory for modeling prices of offsetting CDS positions <span>critical to the structured product trading desk.</span></h4><br>
+
+				<h4 id="left">The <span>opportunity to open a new regional branch</span> of Paulson Investment Co in San Antonio, TX was a rare chance for a young professional to gain valuable management experience.  I obtained the <span>Series 7, 24 and 63</span> licenses which gave me authority to <span>supervise the growth and compliance of over 300 new accounts, with assets under management of over $50 million.</span></h4><br>
+
+				<u><h1 id="left">Education</h1></u><br>
+
+				<i><h2 id="left">Codeup</i></h2>
+				<h4 id="left">(2014)</h4>
+				<h3 id="left">San Antonio, TX</h3><br>
+
+				<i><h2 id="left">MS-Financial Engineering</i></h2>
+				<h4 id="left">(2006)</h4>
+				<h3 id="left">Kent State University, Kent, OH.</h3><br>
+
+				<i><h2 id="left">MBA-Finance</i></h2>
+				<h4 id="left">(2005)</h4>
+				<h3 id="left">University of Texas at San Antonio, San Antonio, TX.</h3><br>
+
+				<i><h2 id="left">BBA-Marketing</i></h2>
+				<h4 id="left">(2006)</h4>
+				<h3 id="left">Texas A&M University, College Station, TX.</h3><br>
+
+				<i><h2 id="left">Chartered Financial Analyst (CFA) Program</i></h2>
+				<h4 id="left">Levels I,II</h4>
+				
+
 			</div>
 
 
 
 			<div class="jumbotron21">
             
-				<i><h1 id="jumbo211">THINK OUTSIDE THE BOX!!!!</h1></i>
+				<i><h1 id="jumbo211">Stay OUTSIDE the BOX</h1></i>
 				<!-- <h1 id="jumbo2"></h1> -->
 
 				<div id = "georgeDiv">
@@ -100,12 +170,12 @@ require 'ingytrader.css';
 			<div class="jumbotron1">
             
 				<h1 id="jumbo1">Part I</h1>
-				<h1 id="jumbo2">"How it all started"</h1>
+				<h1 id="jumbo2">"HOW IT ALL STARTED"</h1>
 			</div>
 
 			<div class="jumbotron2">
             
-				<h1 id="jumbo21">As far back as I can remember, I knew I was going to be a trader.</h1>
+				<h1 id="jumbo21">As far back as I can remember, I knew I was going to be a TRADER.</h1>
 			</div>
 			
 			<div class="jumbotron2b">
@@ -115,27 +185,27 @@ require 'ingytrader.css';
 			<div class="jumbotron3">
             
 				<h1 id="jumbo31"></h1>
-				<h1 id="jumbo32">But in order to become "Gekko", first I had to be "Bud Fox". So after college I became a stock broker at a small firm in Texas.</h1>
+				<h1 id="jumbo32">But in order to become GEKKO, first I had to be BUD FOX. So after college I became a stock broker at a small firm in Texas.</h1>
 			</div>
 
 			<div class="jumbotron4">
             
-				<h1 id="jumbo41">Over the next seven years I paid my dues and worked my way closer to the goal.</h1>
+				<h1 id="jumbo41">Over the next seven years I PAID MY DUES and worked my way closer to the goal.</h1>
 			</div>
 
 			<div class="jumbotron4b">
 
-				<h1 id="jumbo42">But the INTERNET revolution of the 90's had changed the investment industry and I would have to adapt in order to survive.</h1>
+				<h1 id="jumbo42">But the INTERNET revolution of the 90's had changed the investment industry and I would have to ADAPT in order to survive.</h1>
 			</div>
 
 			<div class="jumbotron5">
             
-				<h1 id="jumbo51">So in 2002, I went back to graduate school and received both an MBA and an M.S. in Financial Engineering.</h1>
+				<h1 id="jumbo51">So in 2002, I went to graduate school and received both an MBA and an MS in Financial Engineering.</h1>
 			</div>
 
 			<div class="jumbotron5b">
 
-				<h1 id="jumbo52">Then in 2006, I was chosen among my peers to intern at Goldman Sachs in NYC. I had finally arrived on Wall Street.</h1>
+				<h1 id="jumbo52">Then in 2006, I was CHOSEN among my peers to intern at Goldman Sachs in NYC. I had finally arrived on Wall Street.</h1>
 			</div>
 
 			<div class="jumbotron6">
@@ -144,27 +214,27 @@ require 'ingytrader.css';
 			</div>
 
 			<div class="jumbotron6b">
-				<h1 id="jumbo62">But Chicago was "my kind of town" and because it is THE center of the commodity trading world, it was only a matter of time before I made it my home.</h1>
+				<h1 id="jumbo62">But Chicago was "my kind of town" and because it is THE CENTER of the commodity trading world, it was only a matter of time before I made it my home.</h1>
 			</div>
 
 			<div class="jumbotron7">
             
 				<h1 id="jumbo71">Part II</h1>
-				<h1 id="jumbo72">"The Trader"</h1>
+				<h1 id="jumbo72">"THE TRADER"</h1>
 			</div>
 
 			<div class="jumbotron8">
             
-				<h1 id="jumbo81">In 2006, I started "Ingersoll Investment Co." A  commodity futures trading firm in Chicago.</h1>
+				<h1 id="jumbo81">In 2006, I started "Ingersoll Investment Co." A commodity futures trading firm in Chicago.</h1>
 			</div>
 				
 			<div class="jumbotron8b">
-				<h1 id="jumbo82">Trading volatility was my specialty.</h1>
+				<h1 id="jumbo82">Trading VOLATILITY was my specialty.</h1>
 			</div>
 
 			<div class="jumbotron9">
             
-				<h1 id="jumbo91">By 2007, I was one of the largest volume traders in Russell 2000 emini options on futures. Butterflies, put and call spreads, straddles and strangles were my main weapons.</h1>
+				<h1 id="jumbo91">By 2007, I was one of the LARGEST volume traders in Russell 2000 emini options on futures. Put and call spreads, straddles and strangles were my main weapons.</h1>
 				<h2 id="jumbo92"></h2>
 			</div>
 
@@ -176,7 +246,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron10b">
 
-				<h1 id="jumbo102">To stay relevant in the new paradigm of High Frequency Trading, I would have to become a programmer.</h1>
+				<h1 id="jumbo102">To stay relevant in the new world of  HIGH FREQUENCY TRADING, I would have to become a programmer.</h1>
 			</div>
 	
 			<!-- <div class="jumbotron11">
@@ -198,12 +268,12 @@ require 'ingytrader.css';
 			<div class="jumbotron13">
             
 				<h1 id="jumbo131">Part III</h1>
-				<h1 id="jumbo132">"The Codeup Experience"</h1>
+				<h1 id="jumbo132">"THE CODEUP EXPERIENCE"</h1>
 			</div>
 
 			<div class="jumbotron14">
             
-				<h1 id="jumbo141">So often, timing is everything and just when I needed it the most, the Codeup bootcamp for web developers was born.</h1>
+				<h1 id="jumbo141">TIMING can be everything and just when I needed it the most, the Codeup bootcamp for web developers was born.</h1>
 				<h2 id="jumbo142"></h2>
 			</div>
 
@@ -221,7 +291,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron17">
             
-				<h1 id="jumbo171">As a graduate of Codeup, I now have the right tools to return to the business I love.</h1>
+				<h1 id="jumbo171">As a GRADUATE OF CODEUP, I now have the right tools to return to the business I love.</h1>
 			</div>
 
 			<!-- <div class="jumbotron18">
@@ -232,24 +302,24 @@ require 'ingytrader.css';
 
 			<div class="jumbotron19">
             
-				<h1 id="jumbo191">I am an object oriented programmer. Well trained in the LAMP+J stack with the ability to write PHP into the Laravel MVC framework.</h1>
+				<h1 id="jumbo191">I am an object oriented programmer.  Trained in the LAMP+J stack with the ability to manage data through the PHP/Laravel MVC framework.</h1>
 
 			</div>
 
 			<div class="jumbotron19b">
-				<h1 id="jumbo192">But more importantly, I have learned how to learn code. Which means I can adapt quickly to the unique frameworks of various developer shops.</h1>
+				<h1 id="jumbo192">But more importantly, I have learned how to LEARN code. Which means I can ADAPT QUICKLY to the unique frameworks of various developer shops.</h1>
 			</div>
 
 			<div class="jumbotron20">
             
-				<h1 id="jumbo201">When you hire me, your getting an outside the box programmer with 20 years of trading experience, who never stops pushing himself to learn, adapt and overcome.</h1>
+				<h1 id="jumbo201">When you HIRE ME, your getting an outside the box programmer with 20 years of trading experience and NEVER stops pushing himself to LEARN, ADAPT and OVERCOME.</h1>
 			</div>
 
 
 
-	<h3><button id="resume-show-button" class="myButton">FULL-RESUME</button></h3>
+	<h3><button id="resume-show-button" class="myButton">Complete Resume</button></h3>
 
-	<h1><a href="http://ingytrader.com/" target="_blank" id="portfolio" >RESTART</a></h1>
+	<h1><a href="http://ingytrader.com/" target="_blank" id="portfolio" >Restart</a></h1>
 
 	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
 
@@ -614,7 +684,7 @@ require 'ingytrader.css';
     		};
 
     		function showSlide20() {
-    			$(".jumbotron20").toggle("slide", 1000).delay(8000).toggle("slide", 1000);
+    			$(".jumbotron20").show("explode",1000).delay(8000).hide("explode", 1000);
     		};
 
     		function showSlide21() {
@@ -624,12 +694,12 @@ require 'ingytrader.css';
     		};
 
     		function showSlide22() {
-    			$(".jumbotron22").slideDown(2000);
+    			$(".jumbotron22").slideDown(1000);
  			
  			};
 
  			function hideSlide22() {
-    			$(".jumbotron22").slideUp(2000);
+    			$(".jumbotron22").slideUp(1000);
  			
  			};
 
