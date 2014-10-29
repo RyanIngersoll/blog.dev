@@ -81,7 +81,7 @@ require 'ingytrader.css';
             
 				<button id="resume-hide-button" class="myButton">close</button>
 				<h1 id="jumbo211">RYAN INGERSOLL</h1>
-				<h3  id="jumbo211">24385 Wilderness Oak #8306, San Antonio, TX. 78258--ingytrader@gmail.com--cell#(210)-912-4339--ingytrader.com</h3>
+				<h3  id="jumbo211">24385 Wilderness Oak #8306, San Antonio, TX 78258--ingytrader@gmail.com--cell#(210)-912-4339--ingytrader.com</h3>
 				<h1 id="jumbo211">_____________________________________________________________________________________________________</h1>
 
 				<u><h1 id="left">Financial Engineer and Full Stack Web Developer</h1></u>
@@ -95,7 +95,7 @@ require 'ingytrader.css';
 				<u><h1 id="left">Professional Experience</h1></u>
 				<i><h2 id="left">Director of Investment Research and Technology</i></h2>
 				<h4 id="left">(October 2013 to Present)</h4>
-				<h3 id="left">SRI Diversified Capital, LLC. San Antonio, TX.</h3><br><br>
+				<h3 id="left">SRI Diversified Capital, LLC. San Antonio, TX</h3><br><br>
 
 				<i><h2 id="left">Commodity Futures Trader</h2></i>
 				<h4 id="left">(2006 to 2013)</h4>
@@ -107,27 +107,27 @@ require 'ingytrader.css';
 
 				<i><h2 id="left">Equity Trader</i></h2>
 				<h4 id="left">(1999-2006)</h4>
-				<h3 id="left">Independent, San Antonio, TX.</h3>
+				<h3 id="left">Independent, San Antonio, TX</h3>
 
 				<i><h2 id="left">Branch Manager</i></h2>
 				<h4 id="left">(1996-1999)</h4>
-				<h3 id="left">Paulson Investment Co., San Antonio, TX.</h3>
+				<h3 id="left">Paulson Investment Co., San Antonio, TX</h3>
 
 				<i><h2 id="left">Investment Representative</i></h2>
 				<h4 id="left">(1994-1996)</h4>
-				<h3 id="left">George E. Dullnig & Co., San Antonio, TX.</h3><br><br>
+				<h3 id="left">George E. Dullnig & Co., San Antonio, TX</h3><br><br>
 
 				<h4 id="left">I am currently enrolled in <span>Codeup's</span> immersive 12-week Web Developer/Programming bootcamp for working professionals (Graduation Nov. 5th 2014). This is an intense program to develop skills with the LAMP +J stack: Linux/Apache/MySQL/PHP and client-side JavaScript using the Laravel framework and jQuery. The curriculum goes way beyond the parameters of traditional computer science degrees through <span>interaction with the local tech community</span> to create new business web applications via the capstone project. In this way, Codeup graduates become seasoned "plug and play" problem solvers who bring <span>value added solutions to solve company specific issues.</span></h4><br><br>
 
 				<u><h1 id="left">Achievements and Leadership</h1></u><br>
 
-				<h4 id="left">As the lead investment and technology analyst for SRI Diversified Capital, I have consulted on multiple drilling projects within the Eagle Ford Shale development. One of my primary responsibilities is to <span>create unique risk management solutions for the energy sector.</span> This eventually led to an extension of profit opportunities of insurance beyond gap coverage of liabilities. Specifically I was able to draw on my <span>expertise in risk transfer and distribution</span> through the futures markets to <span>engineer the framework of a new exchange traded derivatives platform</span> for the reinsurance industry known as the ILF index.</h4><br>
+				<h4 id="left">As the lead investment and technology analyst for SRI Diversified Capital, I have consulted on multiple drilling projects within the Eagle Ford Shale development. One of my primary responsibilities is to <span>create unique risk management solutions for the energy sector.</span> This eventually led to an extension of profit opportunities of insurance beyond gap coverage of liabilities. Specifically I was able to draw on my <span>expertise in risk transfer and distribution</span> through the futures markets to <span>engineer the framework of a new exchange traded derivatives platform</span> for the reinsurance industry known as the <span>ILF index.</span></h4><br>
 
-				<h4 id="left">Having traded across the entire spectrum of the capital markets, IMHO The Russell 2000 Index futures (symbol #TF) offer the best combination of volatility, liquidity and low trading costs available. It is no coincidence then my primary strategy is a <span>long/short option strategy focused around monthly expiration cycles of the #TF front month contract.</span> To a lesser extent, I deployed capital around the <span>WTI Crude futures</span> (symbol CL). This was a volatility based system taking its entry and exits from my <span>proprietary blend of the S&P VIX and the crude oil VIX.</span> When the opportunities were right, I took less frequent positions against <span>wheat, corn, soybeans, copper, 10 year Treasuries, S&P 500, Nasdaq and the Dow Jones.</span> My option strategies combined <span>put and call spreads, butterflies, strip, strap, strangles, and calendar spreads.</span> Options consistently gave added flexibility to my directional trading as well as valuable risk management to my overall core positions. </h4><br>
+				<h4 id="left">Having traded across the entire spectrum of the capital markets, IMHO The Russell 2000 Index futures (symbol #TF) offer the best combination of volatility, liquidity and low trading costs available. It is no coincidence then my primary strategy is a <span>long/short option strategy</span> focused around monthly expiration cycles of the #TF front month contract. To a lesser extent, I deployed capital around the <span>WTI Crude futures</span> (symbol CL). This was a volatility based system taking its entry and exits from my <span>proprietary blend of the S&P VIX and the crude oil VIX.</span> When the opportunities were right, I took less frequent positions against <span>wheat, corn, soybeans, copper, 10 year Treasuries, S&P 500, Nasdaq and the Dow Jones.</span> My option strategies combined <span>put and call spreads, butterflies, strip, strap, strangles, and calendar spreads.</span> Options consistently gave added flexibility to my directional trading as well as valuable risk management to my overall core positions. </h4><br>
 
-				<h4 id="left"><span>Chosen by Goldman Sachs</span> for the Summer Analyst Program was the direct result of graduating from Kent State’s prestigious master’s program in Financial Engineering.  My primary team assignments were to <span>manage risk through bundling single name issuances of corporate debt</span> within the Bank’s inventory for modeling prices of offsetting CDS positions <span>critical to the structured product trading desk.</span></h4><br>
+				<h4 id="left"><span>Chosen by Goldman Sachs</span> for the Summer Analyst Program was the direct result of graduating from Kent State’s prestigious master’s program in Financial Engineering.  My primary team assignments were to <span>manage risk</span> through bundling single name issuances of corporate debt within the Bank’s inventory for modeling prices of offsetting CDS positions <span>critical to the structured product trading desk.</span></h4><br>
 
-				<h4 id="left">The <span>opportunity to open a new regional branch</span> of Paulson Investment Co in San Antonio, TX was a rare chance for a young professional to gain valuable management experience.  I obtained the <span>Series 7, 24 and 63</span> licenses which gave me authority to <span>supervise the growth and compliance of over 300 new accounts, with assets under management of over $50 million.</span></h4><br>
+				<h4 id="left">The <span>opportunity to open a new regional branch</span> of Paulson Investment Co in San Antonio, TX was a rare chance for a young professional to gain valuable management experience.  I obtained the <span>Series 7, 24 and 63</span> licenses which gave me authority to <span>supervise the growth and compliance</span> of over 300 new accounts, with assets under management of over $50 million.</h4><br>
 
 				<u><h1 id="left">Education</h1></u><br>
 
@@ -137,19 +137,19 @@ require 'ingytrader.css';
 
 				<i><h2 id="left">MS-Financial Engineering</i></h2>
 				<h4 id="left">(2006)</h4>
-				<h3 id="left">Kent State University, Kent, OH.</h3><br>
+				<h3 id="left">Kent State University, Kent, OH</h3><br>
 
 				<i><h2 id="left">MBA-Finance</i></h2>
 				<h4 id="left">(2005)</h4>
-				<h3 id="left">University of Texas at San Antonio, San Antonio, TX.</h3><br>
+				<h3 id="left">University of Texas at San Antonio, San Antonio, TX</h3><br>
 
 				<i><h2 id="left">BBA-Marketing</i></h2>
 				<h4 id="left">(2006)</h4>
-				<h3 id="left">Texas A&M University, College Station, TX.</h3><br>
+				<h3 id="left">Texas A&M University, College Station, TX</h3><br>
 
 				<i><h2 id="left">Chartered Financial Analyst (CFA) Program</i></h2>
-				<h4 id="left">Levels I,II</h4>
-				
+				<h4 id="left">Passed Levels I & II</h4><br>
+				<button id="resume-hide-button2" class="myButton">close</button>
 
 			</div>
 
@@ -157,11 +157,11 @@ require 'ingytrader.css';
 
 			<div class="jumbotron21">
             
-				<i><h1 id="jumbo211">Stay OUTSIDE the BOX</h1></i>
+				<i><h1 id="jumbo211">Stay OUT of the BOX</h1></i>
 				<!-- <h1 id="jumbo2"></h1> -->
 
 				<div id = "georgeDiv">
-				<iframe id= "george" width="420" height="315" src="//www.youtube.com/embed/xiwtXHPwGPE" frameborder="0" allowfullscreen></iframe>
+				<iframe id= "george" width="420" height="315" src="http://www.youtube.com/embed/xiwtXHPwGPE?autoplay=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 			</div>
@@ -190,7 +190,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron4">
             
-				<h1 id="jumbo41">Over the next seven years I PAID MY DUES and worked my way closer to the goal.</h1>
+				<h1 id="jumbo41">Over the next seven years I PAID MY DUES and worked my way closer to the GOAL.</h1>
 			</div>
 
 			<div class="jumbotron4b">
@@ -214,7 +214,7 @@ require 'ingytrader.css';
 			</div>
 
 			<div class="jumbotron6b">
-				<h1 id="jumbo62">But Chicago was "my kind of town" and because it is THE CENTER of the commodity trading world, it was only a matter of time before I made it my home.</h1>
+				<h1 id="jumbo62">But Chicago is "my kind of town" and because it is THE CENTER of the commodity trading world, it was only a matter of time before I made it my HOME.</h1>
 			</div>
 
 			<div class="jumbotron7">
@@ -261,7 +261,7 @@ require 'ingytrader.css';
  -->
 			<div class="jumbotron12">
             
-				<h1 id="jumbo121">And then most important window of my career flew wide open.</h1>
+				<h1 id="jumbo121">And then most important window of my career flew WIDE OPEN.</h1>
 				<h2 id="jumbo122"></h2>
 			</div>
 
@@ -273,7 +273,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron14">
             
-				<h1 id="jumbo141">TIMING can be everything and just when I needed it the most, the Codeup bootcamp for web developers was born.</h1>
+				<h1 id="jumbo141">TIMING can be everything and just when I needed it the most, the Codeup bootcamp for web developers was BORN.</h1>
 				<h2 id="jumbo142"></h2>
 			</div>
 
@@ -291,7 +291,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron17">
             
-				<h1 id="jumbo171">As a GRADUATE OF CODEUP, I now have the right tools to return to the business I love.</h1>
+				<h1 id="jumbo171">As a GRADUATE of Codeup, I now have the right tools to return to the business I love.</h1>
 			</div>
 
 			<!-- <div class="jumbotron18">
@@ -302,7 +302,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron19">
             
-				<h1 id="jumbo191">I am an object oriented programmer.  Trained in the LAMP+J stack with the ability to manage data through the PHP/Laravel MVC framework.</h1>
+				<h1 id="jumbo191">I am an object oriented programmer,  trained in the LAMP+J stack with the PHP/Laravel MVC framework.</h1>
 
 			</div>
 
@@ -329,6 +329,10 @@ require 'ingytrader.css';
 
 	<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="home" >ingytrader@gmail.com</a></h1>
 
+	<a href="http://www.codeup.com/" target="_blank" id="codeup"><img src="codeup-tshirt-businesscard-594x386.jpg"  alt= "codeup" ></a>
+
+	
+
 
 <div class="container">
 
@@ -353,6 +357,11 @@ require 'ingytrader.css';
 <img id="finEng1" src="financialeng2.jpg"  alt= "ryanspic" >
 <img id="slide" src="financialeng1.jpg"  alt= "ryanspic" >
 
+<button id="different">
+<img  src="be_different_by_sovata.jpg"  alt= "ryanspic" >
+</button>
+
+
 <!-- <p id="blank" >"                 "</p> -->
 
 
@@ -362,7 +371,9 @@ require 'ingytrader.css';
 
 </div>
 	<script>
-
+// var title = $("iframe#ytplayer").attr("src");
+// title.replace("autoplay=0", "autoplay=1");
+				var title; 
 				var ingy;
 				var counter = 0;
 				var t = 0;
@@ -372,6 +383,8 @@ require 'ingytrader.css';
 				hideOnlineResume();
 				hideFinEng1();
 				$("#slide").hide();
+				$("#different").hide();
+				$("#codeup").hide();
 				$("#onlineResume5").hide();
 				$(".jumbotron1").hide();
 				$(".jumbotron2").hide();
@@ -544,6 +557,8 @@ require 'ingytrader.css';
 	    		}
 
 
+
+
 	    	function getRoboCop() {
 			      $("#robocop").trigger("play");
     		};
@@ -570,6 +585,10 @@ require 'ingytrader.css';
 
     		function showFinEng1() {
     			$("#finEng1").show(2000).delay(6000).hide(2000);
+    		};
+
+    		function showDifferent() {
+    			$("#different").show();
     		};
 
     	
@@ -680,11 +699,11 @@ require 'ingytrader.css';
     		};
 
     		function showSlide19b() {
-    			$(".jumbotron19b").toggle("slide", 1000).delay(7000).toggle("pulsate", 1000);
+    			$(".jumbotron19b").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
     		};
 
     		function showSlide20() {
-    			$(".jumbotron20").show("explode",1000).delay(8000).hide("explode", 1000);
+    			$(".jumbotron20").show(1000).delay(8000).hide(1000);
     		};
 
     		function showSlide21() {
@@ -729,6 +748,8 @@ require 'ingytrader.css';
     			$("#george").slideDown(2000).delay(40000).slideUp(2000);
 			       
     		};
+
+
 // .attr('src', $("#georgeDiv", parent).attr('src') + '?autoplay=1')
 //     		$('#image_id').click(function() {
 //   				$("#some_id iframe").attr('src', $("#some_id iframe", parent).attr('src') + '?autoplay=1'); 
@@ -964,7 +985,7 @@ require 'ingytrader.css';
 
 	    		function intro36(){
 	    			showSlide19b();
-	    			setTimeout(intro37, 10000);
+	    			setTimeout(intro37, 8000);
 	    		}
 
 	    		function intro37(){
@@ -973,9 +994,11 @@ require 'ingytrader.css';
 	    		}
 
 				function intro38(){
-	    			showSlide21();
+
+					showDifferent();
+	    			//showSlide21();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro39, 40000);
+	    			setTimeout(intro39, 55000);
 	    		}
 
 
@@ -1011,6 +1034,8 @@ require 'ingytrader.css';
 	    			$('#github').slideDown(2000);
 	    			$('#linkedin').slideDown(2000);
 	    			$('#home').slideDown(2000);
+	    			$('#codeup').slideDown(2000);
+	    			
 	    		}
 
 	    		function slideBlack(){
@@ -1069,6 +1094,17 @@ require 'ingytrader.css';
         					enter1();
   						});
 
+	    			$('#different').click(function() {
+	    				$('#different').hide("explode",1000);
+
+    						showSlide21();
+    						var title = $("#george").attr("src");
+    						title.replace("autoplay=0", "autoplay=1");
+ 					});
+
+	    				//showDifferent();
+	    			//showSlide21();
+
 	    				$('#resume-show-button').click(function() {
 
     						$(".jumbotron22").slideDown(2000);
@@ -1078,6 +1114,10 @@ require 'ingytrader.css';
 
 
 	    				$('#resume-hide-button').click(function() {
+	    					$(".jumbotron22").slideUp(2000);
+	    			}); 
+
+	    				$('#resume-hide-button2').click(function() {
 	    					$(".jumbotron22").slideUp(2000);
 	    			}); 
 

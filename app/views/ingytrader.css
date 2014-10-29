@@ -25,11 +25,14 @@
 
 #resume-show-button{
 	background-color:black;
-	color:red;
-
+	color:white;
+	text-shadow:none;
 }
 
-
+#different{
+	border:none;
+	background-color: transparent;
+}
 /*.myButton:hover {
 	background-color: black;
 }*/
