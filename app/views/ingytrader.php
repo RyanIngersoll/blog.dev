@@ -998,7 +998,7 @@ require 'ingytrader.css';
 					showDifferent();
 	    			//showSlide21();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro39, 55000);
+	    			setTimeout(intro39, 50000);
 	    		}
 
 
