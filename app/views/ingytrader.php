@@ -10,6 +10,8 @@ require 'ingytrader.css';
 	<script src="/js/jquery-1.11.1.js"></script>
 	
 	<script src="/js/jquery-ui.js"></script>
+	<script src="/js/jQueryRotate.js"></script>
+
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
@@ -353,7 +355,7 @@ require 'ingytrader.css';
 <h1 id="onlineResume4" >The unique combination of experienced derivatives trader and designer of object oriented code</h1>
 <h1 id="onlineResume5" >A.K.A........</h1>
 
-<img id="blueCode" src="ryanspic.jpeg"  alt= "ryanspic" >
+<img id="blueCode" src="ryanglasses2.png"  alt= "ryanspic" >
 <img id="finEng1" src="financialeng2.jpg"  alt= "ryanspic" >
 <img id="slide" src="financialeng1.jpg"  alt= "ryanspic" >
 
@@ -373,6 +375,14 @@ require 'ingytrader.css';
 	<script>
 // var title = $("iframe#ytplayer").attr("src");
 // title.replace("autoplay=0", "autoplay=1");
+				var rotation = function (){
+					   $("#hireMe").rotate({
+					      angle:100, 
+					      animateTo:1080, 
+					      callback: rotation
+					   });
+					}
+
 				var title; 
 				var ingy;
 				var counter = 0;
@@ -1077,7 +1087,11 @@ require 'ingytrader.css';
 	    		}
 
 
+
+
 			$( document ).ready(function() {
+
+				rotation();
 
 	    			$('#start-button').click(function() {
 	    				
