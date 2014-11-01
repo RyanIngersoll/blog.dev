@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 require 'ingytrader.css';
+//require 'animations.css';
 ?>
 
 <html>
@@ -8,13 +9,14 @@ require 'ingytrader.css';
 	<title>ingytrader.com</title>
 	<!-- link to jquery commands file saved to make mac -->
 	<script src="/js/jquery-1.11.1.js"></script>
+
 	
 	<script src="/js/jquery-ui.js"></script>
 	<script src="/js/jQueryRotate.js"></script>
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="animations.css">
 
 </head>
 
@@ -321,7 +323,7 @@ require 'ingytrader.css';
 
 	<h3><button id="resume-show-button" class="myButton">Complete Resume</button></h3>
 
-	<h1><a href="http://ingytrader.com/" target="_blank" id="portfolio" >Restart</a></h1>
+	<h1><a href="http://ingytrader.com/" target="" id="portfolio" >Restart</a></h1>
 
 	<h1><a href="https://www.linkedin.com/profile/view?id=49609689&trk=nav_responsive_tab_profile" target="_blank" id="linkedin" >LinkedIn Profile</a></h1>
 
@@ -346,6 +348,12 @@ require 'ingytrader.css';
 <img id="hireMe" src="hirered.jpg"  alt= "hireme" >
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
 
+
+<p id = "recruiters1" ><em><span>RECRUITERS:</span></em> If you prefer to skip the EFFORT of getting to know me... </p>
+<p id ="recruiters2" >Click the path of least resistance.</p>			
+
+<button id="contact-button" class = "contactButton" type="button">Easy</button>
+
 <h1 id="codingProblem2" >INGYTRADER</h1>
 
 <h1 id="onlineResume1" >You have entered the virtual resume of</h1>
@@ -367,7 +375,9 @@ require 'ingytrader.css';
 <!-- <p id="blank" >"                 "</p> -->
 
 
-<h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem4" >ingytrader@gmail.com</a></h1>
+<!-- <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem4" >ingytrader@gmail.com</a></h1> -->
+
+
 
 
 
@@ -1052,6 +1062,10 @@ require 'ingytrader.css';
 	    			$('#black').slideUp(35000);
 	    		}
 
+	    		function slideBlack2(){
+	    			$('#black').slideUp(2000);
+	    		}
+
 				function enter1(){
 	    			showResume1();
 	    		
@@ -1092,6 +1106,23 @@ require 'ingytrader.css';
 			$( document ).ready(function() {
 
 				rotation();
+
+					$('#contact-button').click(function(){
+						$('#contact-button').hide("explode",2000);
+						$('#start-button').hide("explode",2000);
+        				$('#hireMe').hide("explode",2000);
+        				$('#codingProblem').hide(2000);
+        				$('#codingProblem5').hide(2000);
+        				$('#codingProblem6').hide(2000);
+        				$('#codingProblem3').hide(2000);
+        				$('#codingProblem4').hide(2000);
+        				$('#codingProblem2').hide(2000);
+        				$('#recruiters1').hide("explode",2000);
+        				$('#recruiters2').hide("explode",2000);
+        				slideBlack2();
+        				showLinks();
+
+					});
 
 	    			$('#start-button').click(function() {
 	    				

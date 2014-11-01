@@ -23,6 +23,11 @@
 	text-shadow:4px 7px 0px #ffffff;
 }
 
+.contactButton{
+	background-color:red;
+	color: white;
+}
+
 #resume-show-button{
 	background-color:black;
 	color:white;
@@ -473,7 +478,21 @@
               }
 
 
+        #recruiters{
+        	color:white;
+        }
 
+        #recruiters1{
+        	color:white;
+        }
+
+        #recruiters2{
+        	color:white;
+        }
+
+        #recruitersP{
+        	color:white;
+        }
 
 		#jumbo1{
 			color: white;
