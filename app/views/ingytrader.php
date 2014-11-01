@@ -1125,7 +1125,9 @@ require 'ingytrader.css';
 					});
 
 	    			$('#start-button').click(function() {
-	    				
+	    				$('#contact-button').hide("explode",2000);
+	    				$('#recruiters1').hide("explode",2000);
+        				$('#recruiters2').hide("explode",2000);
         				$('#start-button').hide("explode",2000);
         				$('#hireMe').hide("explode",2000);
         				$('#codingProblem').hide(2000);
