@@ -28,6 +28,19 @@
 	color: white;
 }
 
+#exitButton{
+	background-color:black;
+	color:white;
+	text-shadow:none;
+	z-index: 1;
+}
+
+#exitButtonText{
+	
+	color: white;
+	z-index: 1;
+}
+
 #resume-show-button{
 	background-color:black;
 	color:white;

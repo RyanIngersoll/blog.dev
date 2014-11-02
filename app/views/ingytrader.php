@@ -319,6 +319,10 @@ require 'ingytrader.css';
 				<h1 id="jumbo201">When you HIRE ME, your getting an outside the box programmer with 20 years of trading experience and NEVER stops pushing himself to LEARN, ADAPT and OVERCOME.</h1>
 			</div>
 
+	<button id="different">
+		<img  src="be_different_by_sovata.jpg"  alt= "ryanspic" >
+	</button>
+
 
 
 	<h3><button id="resume-show-button" class="myButton">Complete Resume</button></h3>
@@ -349,7 +353,7 @@ require 'ingytrader.css';
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
 
 
-<p id = "recruiters1" ><em><span>RECRUITERS:</span></em> If you prefer to skip the EFFORT of getting to know me... </p>
+<p id = "recruiters1" ><em><span>RECRUITERS:</span></em> If you just need my contact info.... </p>
 <p id ="recruiters2" >Click the path of least resistance.</p>			
 
 <button id="contact-button" class = "contactButton" type="button">Easy</button>
@@ -367,8 +371,8 @@ require 'ingytrader.css';
 <img id="finEng1" src="financialeng2.jpg"  alt= "ryanspic" >
 <img id="slide" src="financialeng1.jpg"  alt= "ryanspic" >
 
-<button id="different">
-<img  src="be_different_by_sovata.jpg"  alt= "ryanspic" >
+<button id="exitButton" class = "myButton" type="button">
+<a href="http://ingytrader.com/" target="" id = "exitButtonText" >Exit</a>
 </button>
 
 
@@ -402,6 +406,7 @@ require 'ingytrader.css';
 				hideBlueCode();
 				hideOnlineResume();
 				hideFinEng1();
+				$("#exitButton").hide();
 				$("#slide").hide();
 				$("#different").hide();
 				$("#codeup").hide();
@@ -613,6 +618,7 @@ require 'ingytrader.css';
 
     	
     		function showSlide1() {
+    			$("#exitButton").show();
     			$(".jumbotron1").toggle("slide", 1000).delay(2000).toggle("pulsate", 1000);
     		};
 
@@ -720,6 +726,7 @@ require 'ingytrader.css';
 
     		function showSlide19b() {
     			$(".jumbotron19b").toggle("slide", 1000).delay(6000).toggle("pulsate", 1000);
+    			$('#exitButton').hide("explode",2000);
     		};
 
     		function showSlide20() {
@@ -1010,7 +1017,7 @@ require 'ingytrader.css';
 
 	    		function intro37(){
 	    			showSlide20();
-	    			setTimeout(intro38, 11000);
+	    			setTimeout(intro38, 10000);
 	    		}
 
 				function intro38(){
@@ -1018,7 +1025,7 @@ require 'ingytrader.css';
 					showDifferent();
 	    			//showSlide21();
 	    			//slides george  down delays 40 sec then goes back up
-	    			setTimeout(intro39, 50000);
+	    			setTimeout(intro39, 5000);
 	    		}
 
 
@@ -1106,6 +1113,7 @@ require 'ingytrader.css';
 			$( document ).ready(function() {
 
 				rotation();
+
 
 					$('#contact-button').click(function(){
 						$('#contact-button').hide("explode",2000);
