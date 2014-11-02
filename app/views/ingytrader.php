@@ -84,9 +84,10 @@ require 'ingytrader.css';
 </div> -->	<div class="jumbotron22">
             
 				<button id="resume-hide-button" class="myButton">close</button>
+				<h4 id="jumbo211">COPY and PASTE into word.doc or pdf format</h4>
 				<h1 id="jumbo211">RYAN INGERSOLL</h1>
 				<h3  id="jumbo211">24385 Wilderness Oak #8306, San Antonio, TX 78258--ingytrader@gmail.com--cell#(210)-912-4339--ingytrader.com</h3>
-				<h1 id="jumbo211">_____________________________________________________________________________________________________</h1>
+				
 
 				<u><h1 id="left">Financial Engineer and Full Stack Web Developer</h1></u>
 				<h4 id="left">I own the unique double threat of being a full-stack, web developer coupled with the savvy of a veteran derivatives trader of the last two decades. The value I deliver lies in my ability to <span>develop and code proprietary quantitative strategies</span> as well as bridge the communication gaps which occur between trading desks and application developers for investment banks, prop firms or hedge funds.</h4><br>
@@ -353,7 +354,7 @@ require 'ingytrader.css';
 <h1> <a href="mailto:ingytrader@gmail.com?Subject=I%20need%20a%20programmer!" target="_top" id="codingProblem3" >ingytrader@gmail.com</a></h1>
 
 
-<p id = "recruiters1" ><em><span>RECRUITERS:</span></em> If you just need my contact info.... </p>
+<p id = "recruiters1" ><em><span>RECRUITERS:</span></em> If you just need my contact info and hard copy of resume.... </p>
 <p id ="recruiters2" >Click the path of least resistance.</p>			
 
 <button id="contact-button" class = "contactButton" type="button">Easy</button>
