@@ -89,13 +89,13 @@ require 'ingytrader.css';
 				<h3  id="jumbo211">24385 Wilderness Oak #8306, San Antonio, TX 78258--ingytrader@gmail.com--cell#(210)-912-4339--ingytrader.com</h3>
 				
 
-				<u><h1 id="left">Financial Engineer and Full Stack Web Developer</h1></u>
-				<h4 id="left">I own the unique double threat of being a full-stack, web developer coupled with the savvy of a veteran derivatives trader of the last two decades. The value I deliver lies in my ability to <span>develop and code proprietary quantitative strategies</span> as well as bridge the communication gaps which occur between trading desks and application developers for investment banks, prop firms or hedge funds.</h4><br>
+				<u><h1 id="left">Full Stack Web Developer and Financial Engineer</h1></u>
+				<h4 id="left">I am the unique double threat of a full-stack, web developer coupled with the savvy of a veteran derivatives trader of the last two decades. The value I deliver lies in my ability to <span>develop and code proprietary quantitative strategies</span> as well as bridge the communication gaps which occur between trading desks and application developers for investment banks, prop firms or hedge funds.</h4><br>
 				<h2 id="left">Full Stack Web Developer (LAMP +J) </h2>
 				<h2 id="left">Linux/Apache/MySQL/PHP</h2>
 				<h2 id="left">JavaScript and jQuery</h2>
 				<h2 id="left">Laravel MVC framework</h2>
-				<h2 id="left">HTML/CSS and Twitter Bootstrap</h2><br><br>
+				<h2 id="left">HTML/CSS AngularJs</h2><br><br>
 
 				<u><h1 id="left">Professional Experience</h1></u>
 				<i><h2 id="left">Director of Investment Research and Technology</i></h2>
@@ -162,7 +162,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron21">
             
-				<i><h1 id="jumbo211">Stay OUT of the BOX</h1></i>
+				<i><h1 id="jumbo211">Think Different</h1></i>
 				<!-- <h1 id="jumbo2"></h1> -->
 
 				<div id = "georgeDiv">
@@ -317,7 +317,7 @@ require 'ingytrader.css';
 
 			<div class="jumbotron20">
             
-				<h1 id="jumbo201">When you HIRE ME, your getting an outside the box programmer with 20 years of trading experience and NEVER stops pushing himself to LEARN, ADAPT and OVERCOME.</h1>
+				<h1 id="jumbo201">When you HIRE ME, your getting a solutions oriented programmer with 20 years of trading experience and NEVER stops pushing himself to LEARN, ADAPT and OVERCOME.</h1>
 			</div>
 
 	<button id="different">
