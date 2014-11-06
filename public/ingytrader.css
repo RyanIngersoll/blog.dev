@@ -1,7 +1,5 @@
 <style type="text/css">
 
-	body {
-}
 
 .myButton {
 	background-color:#f00c1f;
@@ -62,6 +60,8 @@
 
 		#left{
 			text-align: left;
+			color: white;
+			background-color: black;
 		}
 
 			  .jumbotron1 {

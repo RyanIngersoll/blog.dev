@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php
+ require 'ingytrader.css';
+?>
 <html>
 <head>
 	<title>ingytrader.com</title>
@@ -326,7 +328,7 @@
 		<h1 id="onlineResume2" >RYAN INGERSOLL</h1>
 
 		<h1 id="onlineResume3" >Full Stack Web Developer and Financial Engineer</h1>
-		
+
 		<h1 id="onlineResume4" >The unique combination of experienced derivatives trader and designer of object oriented code</h1>
 		<h1 id="onlineResume5" >A.K.A........</h1>
 
