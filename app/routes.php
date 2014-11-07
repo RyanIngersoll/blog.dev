@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/firstAngular', function() {
+	return View::make('firstAngular');
+});
+
 Route::get('/images', function() {
 	return View::make('images');
 });
