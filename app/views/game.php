@@ -3,8 +3,8 @@
 <head>
 	<title>money-never-sleeps</title>
 	<!-- link to jquery commands file saved to make mac -->
-	<script src="jquery-1.11.1.js"></script>
-	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	<script src="/js/jquery-1.11.1.js"></script>
+	<script src="/js/jquery-ui.js"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 

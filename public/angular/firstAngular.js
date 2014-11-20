@@ -9,7 +9,7 @@ angular
     $scope.todos = [
       {text:'Hello World!', done:false},
       {text:'Fizz Buzz/PHP', done:false},
-      {text:'ToDo/JavaScript', done:false},
+      {text:'ToDo/JavaScript/MySQL', done:false},
       {text:'Whack-a-Mole/Jquery', done:false},
       {text:'Laravel/Deployment', done:false},
       {text:'Final Project', done:false},

@@ -24,7 +24,7 @@
 
                 <!-- Post Content -->
                 @section('content')
-                	<h1>The ryan Principle</h1>
+                	<h1>The Heisenberg Principle</h1>
                 	<!-- <img class="gekko" src="300px-Walter_White2.jpg" alt="wall street"> -->
                 <!-- Author -->
 	                <p class="lead">
