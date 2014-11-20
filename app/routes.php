@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/twirl', function() {
+	return View::make('twirl');
+});
+
 Route::get('/firstAngular', function() {
 	return View::make('firstAngular');
 });

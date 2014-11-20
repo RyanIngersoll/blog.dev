@@ -1,13 +1,28 @@
-angular.module('todoApp', [])
-  .controller('TodoController', ['$scope', function($scope) {
+
+angular
+  .module('todoApp', [])
+  // .controller('MainCtrl', MainCtrl);
+  .controller('TodoController', 
+
+    ['$scope', function($scope) {
+
     $scope.todos = [
-      {text:'longhorns are not good', done:true},
-      {text:'build an angular app', done:false}];
+      {text:'Hello World!', done:false},
+      {text:'Fizz Buzz/PHP', done:false},
+      {text:'ToDo/JavaScript', done:false},
+      {text:'Whack-a-Mole/Jquery', done:false},
+      {text:'Laravel/Deployment', done:false},
+      {text:'Final Project', done:false},
+      {text:'What Comes Next?', done:false},
+      
+      ];
  
     $scope.addTodo = function() {
-      $scope.todos.push({text:$scope.todoText, done:false});
-      $scope.todoText = '';
-    };
+      
+ 
+          $scope.todos.push({text:$scope.todoText, done:false});
+          $scope.todoText = '';
+        };
  
     $scope.remaining = function() {
       var count = 0;
@@ -15,7 +30,8 @@ angular.module('todoApp', [])
         count += todo.done ? 0 : 1;
       });
       return count;
-    };
+      console.log(count);
+    }; 
  
     $scope.archive = function() {
       var oldTodos = $scope.todos;
@@ -24,4 +40,7 @@ angular.module('todoApp', [])
         if (!todo.done) $scope.todos.push(todo);
       });
     };
+
   }]);
+
+

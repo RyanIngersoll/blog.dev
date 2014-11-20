@@ -3,3 +3,99 @@
   color: red;
 
 }
+
+
+#dot1	{
+	position: absolute;
+	left: -45px;
+	top: 130px;
+	background-image: url(dot1.png);
+	background-repeat:no-repeat;
+	height:90px;
+	width: 90px;
+}
+#dot2	{
+	position: absolute;
+	left: 145px;
+	top: 130px;
+	background-image: url(dot2.png);
+	background-repeat:no-repeat;
+	height:90px;
+	width: 90px;
+	display:none;
+}
+#dot3	{
+	position: absolute;
+	left: 290px;
+	top: 130px;
+	background-image: url(dot3.png);
+	background-repeat:no-repeat;
+	height:90px;
+	width: 90px;
+	display:none;
+}
+
+#dot4	{
+	position: absolute;
+	left: 435px;
+	top: 130px;
+	background-image: url(dot4.png);
+	background-repeat:no-repeat;
+	height:90px;
+	width: 90px;
+	display:none;
+}
+
+#twirl	{
+	position: absolute;
+	width: 400px;
+	height:125px;
+	background-image:url(twirl.png);
+	background-repeat:no-repeat;
+	display:none;
+	left: 100px;
+	top:105px;
+}
+
+
+body {
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+        font-size: 65px;
+        background-color: black;
+        color:white;
+        text-align: center;
+      }
+
+p {
+    font-family: red-serif;
+}
+
+#center{
+			text-align: center;
+			color: white;
+			
+		}
+
+#list{
+
+	text-align: center;
+}
+#archive{
+	margin-top: 200px;
+	position: absolute;
+	text-align: center;
+}
+
+#add{
+	background-color: red;
+}
+
+#checkbox{
+	background-size: 400%;
+}
+
+
+
+
+
+
