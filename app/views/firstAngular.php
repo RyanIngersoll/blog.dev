@@ -377,8 +377,8 @@ Buzz
 
 <p id="whack"> Whack-a-Mole -- Intro to Jquery</p> 
 
-<p id="whack2"> $('#stage1').click(function() {
-    					$('#helloWorld').slideUp(1000);
+<p id="whack2"> $('#jquery').click(function() {
+    					$('#animation').slideUp(1000);
 						
 						
  					});</p> 
@@ -439,15 +439,15 @@ Buzz
 
  					$('#stage2').click(function() {
     					$('#stage2').slideUp(1000);
-    					$('#fizz').slideDown(1000).delay(5000).slideUp(1000);
-						$('#fizz1').slideDown(1000).delay(30000).slideUp(1000);
-  						$('#fizz2').slideDown(38000).delay(5000).slideUp(1000);
+    					$('#fizz').slideDown(1000).delay(8000).slideUp(1000);
+						$('#fizz1').slideDown(1000).delay(33000).slideUp(1000);
+  						$('#fizz2').slideDown(38000).delay(10000).slideUp(1000);
  					});
 
  					$('#stage3').click(function() {
     					$('#stage3').slideUp(1000);
 						$('#todo1').slideDown(1000).delay(10000).slideUp(1000);
-  						$('#todo2').slideDown(20000).delay(30000).slideUp(1000);
+  						$('#todo2').slideDown(20000).delay(50000).slideUp(1000);
  					});
 
  					$('#stage4').click(function() {
@@ -465,7 +465,7 @@ Buzz
  					$('#stage6').click(function() {
     					$('#stage6').slideUp(1000);
 						$('#bot').slideDown(1000).delay(25000).slideUp(1000);
-						$('#next').slideDown(40000).delay(25000).slideUp(1000);;
+						$('#next').slideDown(40000).delay(60000).slideUp(1000);;
  					});
 
  					$('#stage7').click(function() {
