@@ -638,7 +638,7 @@
 				}
 
 	    		function slideBlack(){
-	    			$('#black').slideUp(50000);
+	    			$('#black').slideUp(55000);
 	    		}
 
 	    		function slideBlack2(){
