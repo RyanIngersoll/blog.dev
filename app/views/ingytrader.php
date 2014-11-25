@@ -7,7 +7,7 @@
 	<title>PHP Developer - San Antonio - Ryan Ingersoll - LAMP+J stack - mySQL - Jquery - AngularJS - CSS - HTML5</title>
 	<meta name="description" content="I am a full-stack web developer, a graduate of Codeup with a Masters in Financial Engineering and 10+ years of professional experience in commodity trading and quantitative research">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-
+	<meta name="keywords" content="PHP Developer Jobs, Employment in San Antonio, TX, San Antonio, TX careers, San Antonio, TX employment, San Antonio, TX job listings, San Antonio, TX job search, San Antonio, TX search engine, work in San Antonio, TX">
 	<!-- cdn's for jquery functions -->
 	<script src="/js/jquery-1.11.1.js"></script>
 	<script src="/js/jquery-ui.js"></script>
