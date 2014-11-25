@@ -1,5 +1,9 @@
-<style type="text/css">
 
+
+	<style type="text/css">
+
+	body {
+}
 
 .myButton {
 	background-color:#f00c1f;
@@ -47,7 +51,9 @@
 	border:none;
 	background-color: transparent;
 }
-
+/*.myButton:hover {
+	background-color: black;
+}*/
 .myButton:active {
 	position:relative;
 	top:1px;
@@ -56,12 +62,12 @@
 		body{
 			text-align: center;
 			background-color: white;
+			/*cursor:url("cellphone.png"), auto;*/
+			/*$('.game-board').css('cursor','url(img/budfox.jpeg), auto');*/	
 		}
 
 		#left{
 			text-align: left;
-			color: white;
-			background-color: black;
 		}
 
 			  .jumbotron1 {
@@ -75,6 +81,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron2 {
@@ -88,6 +95,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron2b {
@@ -101,7 +109,8 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
-			 }
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
+              }
 
               .jumbotron3 {
               position: relative;
@@ -114,6 +123,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron4 {
@@ -127,6 +137,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron4b {
@@ -140,6 +151,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron5 {
@@ -153,6 +165,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron5b {
@@ -166,6 +179,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron6 {
@@ -179,6 +193,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron6b {
@@ -192,6 +207,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron7 {
@@ -205,6 +221,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron8 {
@@ -218,6 +235,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron8b {
@@ -231,6 +249,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron9 {
@@ -244,6 +263,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron10 {
@@ -257,6 +277,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron10b {
@@ -270,6 +291,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron11 {
@@ -283,6 +305,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron11b {
@@ -296,6 +319,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron12 {
@@ -309,6 +333,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron13 {
@@ -322,6 +347,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron14 {
@@ -335,6 +361,7 @@
              margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron15 {
@@ -348,6 +375,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron16 {
@@ -361,6 +389,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron17 {
@@ -374,6 +403,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron18 {
@@ -387,6 +417,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron19 {
@@ -400,6 +431,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron19b {
@@ -413,6 +445,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron20 {
@@ -426,6 +459,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron21 {
@@ -435,10 +469,11 @@
               text-align: center;
               border-radius: 50px;
               color: white;
-              padding: 50px;
-              margin-left: 100px;
-              margin-right: 100px;
+              padding: 10px;
+              margin-left: 200px;
+              margin-right: 200px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
               .jumbotron22 {
@@ -452,6 +487,7 @@
               margin-left: 100px;
               margin-right: 100px;
               margin-top: 0px;
+              	/*background-image: url(img/bitcoin_conversion.jpeg);*/
               }
 
 
@@ -631,6 +667,10 @@
 			color: white;
 		}
 
+    #jumbo211{
+      color: white;
+    }
+
 		#slide {
 			position: relative;
 		    /*left: 0px;
@@ -712,15 +752,19 @@
 			color: red;
 		}
 
-		.container .jumbotron {
-            border-radius: 50px;
-        }
+		
 
-        #start-button {
-            border-radius: 50px;
-        }
+              .container .jumbotron {
+              border-radius: 50px;
+              }
 
-		.mole {
+              #start-button{
+              	border-radius: 50px;
+              }
+
+		
+
+		.mole{
 			display: none;
 		}
 
@@ -731,6 +775,7 @@
 			float: left;
 			margin-left: 0px;
 			border: 2px solid transparent;
+
 		}
 
 		span{
@@ -745,5 +790,270 @@
 		.felony{
 			color: white;
 		}
+
+    /*#resume1{
+      color:white;
+      text-align: center;
+    }*/
+
+    #resume2{
+      color:white;
+      text-align: center;
+    }
+
+    #left1{
+      color:white;
+      text-align: left;
+    }
+
+    #left2{
+      color:white;
+      text-align: left;
+    }
+
+    #left3{
+      color:white;
+      text-align: left;
+    }
+
+    #left4{
+      color:white;
+      text-align: left;
+    }
+
+    #left5{
+      color:white;
+      text-align: left;
+    }
+
+    #left6{
+      color:white;
+      text-align: left;
+    }
+
+    #left7{
+      color:white;
+      text-align: left;
+    }
+
+    #left8{
+      color:white;
+      text-align: left;
+    }
+
+    #left9{
+      color:white;
+      text-align: left;
+    }
+
+
+    #left10{
+      color:white;
+      text-align: left;
+    }
+
+    #left11{
+      color:white;
+      text-align: left;
+    }
+
+    #left12{
+      color:white;
+      text-align: left;
+    }
+
+    #left13{
+      color:white;
+      text-align: left;
+    }
+
+    #left14{
+      color:white;
+      text-align: left;
+    }
+
+    #left15{
+      color:white;
+      text-align: left;
+    }
+
+    #left16{
+      color:white;
+      text-align: left;
+    }
+
+    #left17{
+      color:white;
+      text-align: left;
+    }
+
+    #left18{
+      color:white;
+      text-align: left;
+    }
+
+
+    #left19{
+      color:white;
+      text-align: left;
+    }
+
+    #left20{
+      color:white;
+      text-align: left;
+    }
+
+    #left21{
+      color:white;
+      text-align: left;
+    }
+
+    #left22{
+      color:white;
+      text-align: left;
+    }
+
+    #left23{
+      color:white;
+      text-align: left;
+    }
+
+    #left24{
+      color:white;
+      text-align: left;
+    }
+
+    #left25{
+      color:white;
+      text-align: left;
+    }
+
+    #left26{
+      color:white;
+      text-align: left;
+    }
+
+    #left27{
+      color:white;
+      text-align: left;
+    }
+
+
+    #left28{
+      color:white;
+      text-align: left;
+    }
+
+    #left29{
+      color:white;
+      text-align: left;
+    }
+
+    #left30{
+      color:white;
+      text-align: left;
+    }
+
+    #left31{
+      color:white;
+      text-align: left;
+    }
+
+    #left32{
+      color:white;
+      text-align: left;
+    }
+
+    #left33{
+      color:white;
+      text-align: left;
+    }
+
+    #left34{
+      color:white;
+      text-align: left;
+    }
+
+    #left35{
+      color:white;
+      text-align: left;
+    }
+
+    #left36{
+      color:white;
+      text-align: left;
+    }
+
+
+    #left37{
+      color:white;
+      text-align: left;
+    }
+
+    #left38{
+      color:white;
+      text-align: left;
+    }
+
+    #left39{
+      color:white;
+      text-align: left;
+    }
+
+    #left40{
+      color:white;
+      text-align: left;
+    }
+
+    #left41{
+      color:white;
+      text-align: left;
+    }
+
+    #left42{
+      color:white;
+      text-align: left;
+    }
+
+    #left43{
+      color:white;
+      text-align: left;
+    }
+
+    #left44{
+      color:white;
+      text-align: left;
+    }
+
+    #left45{
+      color:white;
+      text-align: left;
+    }
+
+
+    #left46{
+      color:white;
+      text-align: left;
+    }
+
+    #left47{
+      color:white;
+      text-align: left;
+    }
+
+    #left48{
+      color:white;
+      text-align: left;
+    }
+
+    #left49{
+      color:white;
+      text-align: left;
+    }
+
+    #left50{
+      color:white;
+      text-align: left;
+    }
 
 	</style>

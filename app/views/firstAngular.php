@@ -231,7 +231,10 @@
    </div>
 
 <?php
-  // Echo "Hello, World!"; 
+  $img = imagecreatetruecolor(400, 600);
+  echo imagesx($img);
+
+  
 ?>
 
 <div>
@@ -409,9 +412,6 @@ Buzz
           <span class="done-{{todo.done}}">{{todo.text}}</span>
         </li>
       </ol>
-
-      
-
     </div>
   </body>
   <script type="text/javascript">
@@ -465,7 +465,7 @@ Buzz
  					$('#stage6').click(function() {
     					$('#stage6').slideUp(1000);
 						$('#bot').slideDown(1000).delay(25000).slideUp(1000);
-						$('#next').slideDown(40000).delay(60000).slideUp(1000);;
+						$('#next').slideDown(40000).delay(75000).slideUp(1000);;
  					});
 
  					$('#stage7').click(function() {
