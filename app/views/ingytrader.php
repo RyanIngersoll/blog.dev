@@ -4,8 +4,10 @@
 ?>
 <html>
 <head>
-	<title>PHP Developer-LAMP+J stack, mySQL, Jquery, AngularJS, CSS and HTML5</title>
-	<meta name="description=" content="I am a full-stack web developer, a graduate of Codeup with a Masters in Financial Engineering and 10+ years of professional experience in commodity trading and quantitative research.">
+	<title>PHP Developer - San Antonio - Ryan Ingersoll - LAMP+J stack - mySQL - Jquery - AngularJS - CSS - HTML5</title>
+	<meta name="description" content="I am a full-stack web developer, a graduate of Codeup with a Masters in Financial Engineering and 10+ years of professional experience in commodity trading and quantitative research">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
 	<!-- cdn's for jquery functions -->
 	<script src="/js/jquery-1.11.1.js"></script>
 	<script src="/js/jquery-ui.js"></script>
