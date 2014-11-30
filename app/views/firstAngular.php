@@ -231,12 +231,12 @@
    </div>
 
 <?php
-  $img = imagecreatetruecolor(400, 600);
-  echo imagesx($img);
-
   
+ $animal = array('type' => 'dog', 'name' => 'Max');
+ $b = (object) $animal;
+ var_dump($b);
+ 
 ?>
-
 <div>
 <img id= "stage1" src="evolve1.png"  alt= "ryanspic" >
 

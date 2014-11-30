@@ -1,4 +1,4 @@
-
+<script>
 //rotating "hire me" image animation
 				var rotation = function (){
 					   $("#hireMe").rotate({
@@ -638,7 +638,7 @@
 				}
 
 	    		function slideBlack(){
-	    			$('#black').slideUp(55000);
+	    			$('#black').slideUp(35000);
 	    		}
 
 	    		function slideBlack2(){
@@ -677,7 +677,7 @@
 
 //beginning of JS execution
 
-			//$( document ).ready(function() {
+			$( document ).ready(function() {
 					rotation();//rotates "hireme"
 
 					$('#contact-button').click(function(){
@@ -737,5 +737,5 @@
 	    				$(".jumbotron22").slideUp(2000);
 	    			}); 
 
-    //});    		
-
+    });    		
+</script>
